@@ -1,0 +1,1009 @@
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\IKSnet.dll.config
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\csc.exe
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\csc.rsp
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\csi.exe
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\csi.rsp
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\vbc.exe
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\WebGrease.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.CoreCompileInputs.cache
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\IKSnet.dll.config
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\IKSnet.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\IKSnet.pdb
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\csc.exe
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\csc.rsp
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\csi.exe
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\csi.rsp
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\vbc.exe
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\EntityFramework.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Owin.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Razor.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\WebGrease.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.Razor.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\EntityFramework.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\IKSnet.dll.config
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\csc.exe
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\csc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\csi.exe
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\csi.rsp
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Security.Claims.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\vbc.exe
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\WebGrease.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.csproj.CoreCompileInputs.cache
+C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\IKSnet.dll.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\csc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\csc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\csi.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\csi.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Security.Claims.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\vbc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\WebGrease.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.csproj.CoreCompileInputs.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\IKSnet.dll.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\csc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\csc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\csi.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\csi.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Security.Claims.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\vbc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\WebGrease.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.csproj.CoreCompileInputs.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - Kopie\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\IKSnet.dll.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\csc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\csc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\csi.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\csi.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Security.Claims.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\vbc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\WebGrease.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.csproj.CoreCompileInputs.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\IKSnet.dll.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\csc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\csc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\csi.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\csi.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Security.Claims.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\vbc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\WebGrease.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.csproj.CoreCompileInputs.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - Kopie (2)\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\IKSnet.dll.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\csc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\csc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\csc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\csi.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\csi.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\csi.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.AppContext.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Console.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Security.Claims.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\vbc.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\vbc.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\vbc.rsp
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Antlr3.Runtime.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\EntityFramework.SqlServer.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Newtonsoft.Json.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Owin.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Helpers.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Mvc.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Optimization.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.WebPages.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\WebGrease.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Helpers.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Mvc.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Optimization.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.WebPages.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Newtonsoft.Json.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Antlr3.Runtime.pdb
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\EntityFramework.SqlServer.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\System.Web.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.csproj.CoreCompileInputs.cache
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.dll
+C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.pdb
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Net.Http.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Net.Http.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Net.Sockets.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.benutzer.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.benutzer.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.namevorname.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.columename.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser2.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.kategorie.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeinkontrolle.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeapplicationuser.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.risikobew.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.displayid.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument2.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument3.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.fremdschluessel.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.datekontrollenull.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess1.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.namevorname.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.columename.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser2.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.kategorie.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeinkontrolle.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeapplicationuser.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.risikobew.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.displayid.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument2.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument3.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.fremdschluessel.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.datekontrollenull.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess1.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache

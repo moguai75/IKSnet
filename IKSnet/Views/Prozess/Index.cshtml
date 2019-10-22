@@ -1,0 +1,112 @@
+﻿@model IKSnet.Models.ProzessIndexData
+
+@{
+    ViewBag.Title = "Prozess";
+}
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>Prozess</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>
+                @Html.ActionLink("Neuer Prozess erfassen", "Create")
+            </p>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>
+                            Titel
+                        </th>
+                        <th>
+                            Beschreibung
+                        </th>
+                        <th>
+                            Prozesskategorie
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                    @foreach (var item in Model.Prozesss)
+                    {
+                        string selectedRow = "";
+                        if (item.ID == ViewBag.ProzessID)
+                        {
+                            selectedRow = "success";
+                        }
+                        <tr class="@selectedRow">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Titel)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Beschreibung)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Prozesskategorie.Bezeichnung)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Selektieren", "Index", new { id = item.ID }) |
+                                @Html.ActionLink("Mutieren", "Edit", new { id = item.ID }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                                @Html.ActionLink("Löschen", "Delete", new { id = item.ID })
+                            </td>
+                        </tr>
+                    }
+            </table>
+        </div>
+    </div>
+
+@if (Model.Prozessaktivitaets != null)
+{
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Prozessaktivitäten</h4>
+    </div>
+
+    <div class="panel-body">
+        <p>
+            @Html.ActionLink("Neue Prozessaktivität erfassen", "Create", "Prozessaktivitaet", new { id = ViewBag.ProzessID }, null)
+        </p>
+        <table class="table table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>Sortierung</th>
+                    <th>Titel</th>
+                    <th>Beschreibung</th>
+                    <th>Risiko vorhanden</th>
+                    <th></th>
+                </tr>
+                </thead>
+                @foreach (var item in Model.Prozessaktivitaets.OrderBy(item => item.Sortierung))
+                {
+                    string selectedRow = "";
+                    if (item.ProzessID == ViewBag.ProzessID)
+                    {
+                        selectedRow = "success";
+                    }
+                    <tr class="@selectedRow">
+                        <td>
+                            @item.Sortierung
+                        </td>
+                        <td>
+                            @item.Titel
+                        </td>
+                        <td>
+                            @item.Beschreibung
+                        </td>
+                        <td>
+                            @item.Risikos.Count
+                        </td>
+                        <td>
+                            @Html.ActionLink("Mutieren", "Edit", "Prozessaktivitaet", new { id = item.ID }, null) |
+                            @Html.ActionLink("Details", "Details", "Prozessaktivitaet", new { id = item.ID }, null) |
+                            @Html.ActionLink("Löschen", "Delete", "Prozessaktivitaet", new { id = item.ID }, null)
+                        </td>
+                    </tr>
+
+                }
+
+        </table>
+    </div>
+</div>
+}

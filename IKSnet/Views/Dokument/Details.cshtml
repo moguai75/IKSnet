@@ -1,0 +1,58 @@
+﻿@model IKSnet.Models.Dokument
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Dokument</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Titel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Beschreibung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Beschreibung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GueltigAb)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GueltigAb)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GueltigBis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GueltigBis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Link)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Link)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

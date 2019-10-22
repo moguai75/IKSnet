@@ -1,0 +1,22 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+@{
+    ViewBag.Title = "Rolle ändern";
+}
+
+<h2>Rolle mutieren</h2>
+
+@Html.ActionLink("Zurück auf Rollenverwaltung", "Index")
+<hr />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(model => model.Id)
+    <div>
+        Rollename
+    </div>
+    <p>
+        @Html.TextBoxFor(model => model.Name)
+    </p>
+    <input type="submit" value="Speichern" />
+}

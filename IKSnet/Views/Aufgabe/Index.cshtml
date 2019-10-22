@@ -1,0 +1,82 @@
+﻿@model IEnumerable<IKSnet.Models.Aufgabe>
+
+@{
+    ViewBag.Title = "Aufgabe";
+}
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>Aufgabe</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>
+                @Html.ActionLink("Neue Aufgabe erfassen", "Create")
+            </p>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ApplicationUser.BenutzerName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Titel)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Beschreibung)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Faellig)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Status)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Kontrolle.ID)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Kommentar)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Dokument)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ApplicationUser.BenutzerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Titel)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Beschreibung)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Faellig)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Status)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Kontrolle.ID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Kommentar)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Dokument)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                            </td>
+                        </tr>
+                    }
+
+            </table>
+    </div>
+</div>

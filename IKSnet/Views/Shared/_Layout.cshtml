@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title | IKSnet</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    @Styles.Render("~/Content/csstheme")
+    @Scripts.Render("~/bundles/modernizr")
+    <!-- Font Awesome -->
+    <!-- Ionicons -->
+    <!-- Theme style -->
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+          page. However, you can choose any other skin. Make sure you
+          apply the skin class to the body tag so the changes take effect. -->
+    <!-- Google Font -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<!--
+BODY TAG OPTIONS:
+=================
+Apply one or more of the following classes to get the
+desired effect
+|---------------------------------------------------------|
+| SKINS         | skin-blue                               |
+|               | skin-black                              |
+|               | skin-purple                             |
+|               | skin-yellow                             |
+|               | skin-red                                |
+|               | skin-green                              |
+|---------------------------------------------------------|
+|LAYOUT OPTIONS | fixed                                   |
+|               | layout-boxed                            |
+|               | layout-top-nav                          |
+|               | sidebar-collapse                        |
+|               | sidebar-mini                            |
+|---------------------------------------------------------|
+-->
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+        <!-- Main Header -->
+        <header class="main-header">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>I</b>KS</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>IKS</b>net</span>
+            </a>
+
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <!-- Navbar Right Menu -->
+                @Html.Partial("_LoginPartial")
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+
+                <!-- Sidebar user panel (optional) -->
+                <!-- search form (Optional) -->
+                <!-- /.search form -->
+                <!-- Sidebar Menu -->
+                <ul class="sidebar-menu" data-widget="tree">
+
+                    <!-- Optionally, you can add icons to the links -->
+                    <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-home"></i><span>Home</span></a></li>
+                    @if (User.IsInRole("Administrator") || User.IsInRole("IKS-Manager"))
+                    {
+                        <li><a href="@Url.Action("Index", "Prozess")"><i class="fa fa-laptop"></i><span>Prozess</span></a></li>
+                        <li><a href="@Url.Action("Index", "Risiko")"><i class="fa fa-eye"></i><span>Risiko</span></a></li>
+                        <li><a href="@Url.Action("Index", "Kontrolle")"><i class="fa fa-pie-chart"></i><span>Kontrolle</span></a></li>
+                    }
+                    <li><a href="@Url.Action("Index", "Aufgabe")"><i class="fa fa-calendar"></i><span>Aufgabe</span></a></li>
+                    <li><a href="@Url.Action("Index", "Dokument")"><i class="fa fa-book"></i><span>Dokument</span></a></li>
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-cogs"></i> <span>Verwaltung</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="@Url.Action("Index", "Benutzer")"><i class="fa fa-folder-o"></i><span>Benutzer</span></a></li>
+                                <li><a href="@Url.Action("Index", "Rolle")"><i class="fa fa-folder-o"></i><span>Benutzerrollen</span></a></li>
+                                <li><a href="@Url.Action("Index", "Prozesskategorie")"><i class="fa fa-folder-o"></i><span>Prozesskategorie</span></a></li>
+                                <li><a href="@Url.Action("Index", "Risikokategorie")"><i class="fa fa-folder-o"></i><span>Risikokategorie</span></a></li>
+                                <li><a href="@Url.Action("Index", "Organisationseinheit")"><i class="fa fa-folder-o"></i><span>Organisation</span></a></li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+                <!-- /.sidebar-menu -->
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <!-- Main content -->
+            <section class="content container-fluid">
+
+                <!--------------------------
+                | Your Page Content Here |
+                -------------------------->
+
+                @RenderBody()
+
+            </section>
+            <!-- /.content -->
+        </div>
+
+        <!-- /.content-wrapper -->
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="pull-right hidden-xs">
+                <div class="alert-info col col-sm-12 col-lg-12 col-md-12">
+                    @ViewBag.Message
+                </div>
+            </div>
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2019 <a href="https://www.ahvpkmetzger.ch">AHV-Kasse Metzger</a>.</strong> All rights reserved.
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+    <!-- REQUIRED JS SCRIPTS -->
+    <!-- jQuery 3 -->
+    <!-- Bootstrap 3.3.7 -->
+    <!-- AdminLTE App -->
+
+
+    @Scripts.Render("~/bundles/jquerytheme")
+    @RenderSection("scripts", required: false)
+
+    <!-- Optionally, you can add Slimscroll and FastClick plugins.
+         Both of these plugins are recommended to enhance the
+         user experience. -->
+</body>
+</html>

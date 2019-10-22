@@ -1,0 +1,112 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+
+@{
+    ViewBag.Title = "Rollenverwaltung";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Rollenverwaltung</h4>
+    </div>
+</div>
+
+<div class="row col-sm-12 col-lg-12 col-md-12">
+
+
+    <div class="col-sm-6 col-lg-6 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h5>Übersicht Rollen</h5>
+            </div>
+            <div class="panel-body">
+                <table class="table table-hover col-sm-6 col-lg-6 col-md-6 ">
+                    @foreach (var role in ViewBag.Roles)
+                    {
+                        <tr>
+                            <td class="col-sm-1 col-lg-5 col-md-5">
+                                <strong>@role.Text </strong>
+                            </td>
+                            <td class="col-sm-1 col-lg-1 col-md-1">
+                                @Html.ActionLink("Mutieren", "Edit", new { roleName = @role.Text })
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div> <!-- End Panel Body-->
+        </div> <!-- End Panel -->
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h5>Rolle einem Benutzer zuordnen</h5>
+            </div>
+            <div class="panel-body">
+                @using (Html.BeginForm("RoleAddToUser", "Rolle"))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+
+                    <p>User Name: @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewBag.Users, "Wählen ...")</p>
+                    <p>Role Name: @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Wählen ...")</p>
+                    <p><input type="submit" value="Speichern" class="btn-primary" /></p>
+
+                }
+            </div> <!-- End Panel Body-->
+        </div> <!-- End Panel -->
+    </div> <!--End First Column-->
+
+    <div class="col-sm-6 col-lg-6 col-md-6">
+
+
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h5>Liste Rolle je Benutzer</h5>
+            </div>
+            <div class="panel-body">
+                @using (Html.BeginForm("GetRoles", "Rolle"))
+                {
+                    @Html.AntiForgeryToken()
+                    <p>
+                        Benutzer: @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewBag.Users, "Wählen ...")
+                        <input type="submit" value="Auflisten" class="btn-primary" />
+                    </p>
+                }
+
+                @if (ViewBag.RolesForThisUser != null)
+                {
+                    <div class="alert-info">
+                        <strong>Rollen für diesen Benutzer</strong>
+                        <ol>
+                            @foreach (string s in ViewBag.RolesForThisUser)
+                            {
+                                <li>@s</li>
+                            }
+                        </ol>
+                    </div>
+                }
+            </div> <!-- End Panel Body-->
+        </div> <!-- End Panel -->
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h5>Benutzer aus Rolle entfernen</h5>
+            </div>
+            <div class="panel-body">
+                @using (Html.BeginForm("DeleteRoleForUser", "Rolle"))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+
+                    <p>User Name: @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewBag.Users, "Wählen ...")</p>
+                    <p>Role Name: @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Wählen ...")</p>
+                    <p><input type="submit" value="Benutzer aus Rolle entfernen" class="btn-primary" /></p>
+
+                }
+            </div> <!-- End Panel Body-->
+        </div> <!-- End Panel -->
+
+    </div> <!--End Second Column-->
+
+
+</div>  <!--Overall Page Wrapper-->
+

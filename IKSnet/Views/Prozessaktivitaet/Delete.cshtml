@@ -1,0 +1,57 @@
+﻿@model IKSnet.Models.Prozessaktivitaet
+
+@{
+    ViewBag.Title = "Delete";
+}
+<h2>Prozessaktivität löschen</h2>
+@Html.ActionLink("Zurück auf Prozessverwaltung", "Index", "Prozess")
+<hr />
+
+
+<div>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Prozess.Titel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prozess.Titel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sortierung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sortierung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Titel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Beschreibung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Beschreibung)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

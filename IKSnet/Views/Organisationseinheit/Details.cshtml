@@ -1,0 +1,29 @@
+﻿@model IKSnet.Models.Organisationseinheit
+
+@{
+    ViewBag.Title = "Details";
+}
+<h2>Detail Organisationseinheit</h2>
+@Html.ActionLink("Zurück auf Organisationseinheitsverwaltung", "Index") |
+@Html.ActionLink("Mutieren", "Edit", new { id = Model.ID })
+<hr />
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kurzbezeichnung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kurzbezeichnung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bezeichnung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bezeichnung)
+        </dd>
+
+    </dl>
+</div>

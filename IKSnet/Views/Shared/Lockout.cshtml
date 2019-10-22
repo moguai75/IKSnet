@@ -1,0 +1,25 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Gesperrt";
+}
+@{
+    Layout = null;
+}
+@Styles.Render("~/Content/csstheme")
+@Scripts.Render("~/bundles/modernizr")
+
+<body class="hold-transition login-page">
+    <div class="login-box-iks">
+        <div class="login-logo">
+            <a href="#"><b>IKS</b>net</a>
+        </div>
+        <!-- /.login-logo -->
+        <div class="login-box-body">
+            <p class="login-box-msg">Gesperrt</p>
+            <hgroup>
+                <h2 class="text-danger">Dieses Konto wurde gesperrt. Bitte versuchen Sie es später erneut.</h2>
+            </hgroup>
+        </div>
+    </div>
+</body>

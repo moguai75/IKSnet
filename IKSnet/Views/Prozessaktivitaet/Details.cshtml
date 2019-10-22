@@ -1,0 +1,45 @@
+﻿@model IKSnet.Models.Prozessaktivitaet
+
+@{
+    ViewBag.Title = "Details";
+}
+<h2>Detail Prozessaktivität</h2>
+@Html.ActionLink("Zurück auf Prozessverwaltung", "Index", "Prozess") |
+@Html.ActionLink("Mutieren", "Edit", new { id = Model.ID })
+<hr />
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Prozess.Titel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prozess.Titel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sortierung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sortierung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Titel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Beschreibung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Beschreibung)
+        </dd>
+
+    </dl>
+</div>

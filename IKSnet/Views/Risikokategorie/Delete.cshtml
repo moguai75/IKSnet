@@ -1,0 +1,30 @@
+﻿@model IKSnet.Models.Risikokategorie
+
+@{
+    ViewBag.Title = "Delete";
+}
+<h2>Risikokategorie löschen</h2>
+@Html.ActionLink("Zurück auf Risikokategorieverwaltung", "Index")
+<hr />
+<div>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Bezeichnung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bezeichnung)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+        </div>
+    }
+</div>

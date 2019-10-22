@@ -1,0 +1,22 @@
+﻿@model IKSnet.Models.Prozesskategorie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detail Prozesskategorie</h2>
+@Html.ActionLink("Zurück auf Prozesskategorieverwaltung", "Index") |
+@Html.ActionLink("Mutieren", "Edit", new { id = Model.ID })
+<hr />
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Bezeichnung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bezeichnung)
+        </dd>
+
+    </dl>
+</div>
