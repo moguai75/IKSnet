@@ -16,6 +16,9 @@
                 <thead class="thead-light">
                     <tr>
                         <th>
+                            ID
+                        </th>
+                        <th>
                             Titel
                         </th>
                         <th>
@@ -32,9 +35,12 @@
                         string selectedRow = "";
                         if (item.ID == ViewBag.ProzessID)
                         {
-                            selectedRow = "success";
+                            selectedRow = "info";
                         }
                         <tr class="@selectedRow">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ID)
+                            </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.Titel)
                             </td>
@@ -70,6 +76,7 @@
         <table class="table table-hover">
             <thead class="thead-light">
                 <tr>
+                    <th>ID</th>
                     <th>Sortierung</th>
                     <th>Titel</th>
                     <th>Beschreibung</th>
@@ -80,11 +87,19 @@
                 @foreach (var item in Model.Prozessaktivitaets.OrderBy(item => item.Sortierung))
                 {
                     string selectedRow = "";
+                    string riskcell = "";
                     if (item.ProzessID == ViewBag.ProzessID)
                     {
-                        selectedRow = "success";
+                        selectedRow = "info";
+                    }
+                    if (item.Risikos.Count > 0)
+                    {
+                            riskcell = "danger";
                     }
                     <tr class="@selectedRow">
+                        <td>
+                            @item.ID
+                        </td>
                         <td>
                             @item.Sortierung
                         </td>
@@ -94,7 +109,7 @@
                         <td>
                             @item.Beschreibung
                         </td>
-                        <td>
+                        <td class="@riskcell">
                             @item.Risikos.Count
                         </td>
                         <td>
@@ -103,7 +118,6 @@
                             @Html.ActionLink("Löschen", "Delete", "Prozessaktivitaet", new { id = item.ID }, null)
                         </td>
                     </tr>
-
                 }
 
         </table>

@@ -190,85 +190,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201910111219462_initial.cs" />
-    <Compile Include="Migrations\201910111219462_initial.Designer.cs">
-      <DependentUpon>201910111219462_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201910241219538_initial.cs" />
+    <Compile Include="Migrations\201910241219538_initial.Designer.cs">
+      <DependentUpon>201910241219538_initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201910111223435_entitykontrolle.cs" />
-    <Compile Include="Migrations\201910111223435_entitykontrolle.Designer.cs">
-      <DependentUpon>201910111223435_entitykontrolle.cs</DependentUpon>
+    <Compile Include="Migrations\201910241420045_dokumentstring.cs" />
+    <Compile Include="Migrations\201910241420045_dokumentstring.Designer.cs">
+      <DependentUpon>201910241420045_dokumentstring.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201910161630317_benutzer.cs" />
-    <Compile Include="Migrations\201910161630317_benutzer.Designer.cs">
-      <DependentUpon>201910161630317_benutzer.cs</DependentUpon>
+    <Compile Include="Migrations\201910241423054_dokumentgueltigbis.cs" />
+    <Compile Include="Migrations\201910241423054_dokumentgueltigbis.Designer.cs">
+      <DependentUpon>201910241423054_dokumentgueltigbis.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201910190928123_namevorname.cs" />
-    <Compile Include="Migrations\201910190928123_namevorname.Designer.cs">
-      <DependentUpon>201910190928123_namevorname.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910191440162_columename.cs" />
-    <Compile Include="Migrations\201910191440162_columename.Designer.cs">
-      <DependentUpon>201910191440162_columename.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910191827054_applicationuser.cs" />
-    <Compile Include="Migrations\201910191827054_applicationuser.Designer.cs">
-      <DependentUpon>201910191827054_applicationuser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910191837340_applicationuser2.cs" />
-    <Compile Include="Migrations\201910191837340_applicationuser2.Designer.cs">
-      <DependentUpon>201910191837340_applicationuser2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910200726086_kategorie.cs" />
-    <Compile Include="Migrations\201910200726086_kategorie.Designer.cs">
-      <DependentUpon>201910200726086_kategorie.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910200735146_aufgabeinkontrolle.cs" />
-    <Compile Include="Migrations\201910200735146_aufgabeinkontrolle.Designer.cs">
-      <DependentUpon>201910200735146_aufgabeinkontrolle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910200745465_aufgabeapplicationuser.cs" />
-    <Compile Include="Migrations\201910200745465_aufgabeapplicationuser.Designer.cs">
-      <DependentUpon>201910200745465_aufgabeapplicationuser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910200938436_risikobew.cs" />
-    <Compile Include="Migrations\201910200938436_risikobew.Designer.cs">
-      <DependentUpon>201910200938436_risikobew.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201002016_displayid.cs" />
-    <Compile Include="Migrations\201910201002016_displayid.Designer.cs">
-      <DependentUpon>201910201002016_displayid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201127569_dokument.cs" />
-    <Compile Include="Migrations\201910201127569_dokument.Designer.cs">
-      <DependentUpon>201910201127569_dokument.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201129415_dokument2.cs" />
-    <Compile Include="Migrations\201910201129415_dokument2.Designer.cs">
-      <DependentUpon>201910201129415_dokument2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201244414_dokument3.cs" />
-    <Compile Include="Migrations\201910201244414_dokument3.Designer.cs">
-      <DependentUpon>201910201244414_dokument3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201306046_prozess.cs" />
-    <Compile Include="Migrations\201910201306046_prozess.Designer.cs">
-      <DependentUpon>201910201306046_prozess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201322508_fremdschluessel.cs" />
-    <Compile Include="Migrations\201910201322508_fremdschluessel.Designer.cs">
-      <DependentUpon>201910201322508_fremdschluessel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201332347_datekontrollenull.cs" />
-    <Compile Include="Migrations\201910201332347_datekontrollenull.Designer.cs">
-      <DependentUpon>201910201332347_datekontrollenull.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201910201350237_prozess1.cs" />
-    <Compile Include="Migrations\201910201350237_prozess1.Designer.cs">
-      <DependentUpon>201910201350237_prozess1.cs</DependentUpon>
+    <Compile Include="Migrations\201910251209526_doc.cs" />
+    <Compile Include="Migrations\201910251209526_doc.Designer.cs">
+      <DependentUpon>201910251209526_doc.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BenutzerViewModels.cs" />
+    <Compile Include="Models\HomeViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IKSModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -1050,6 +991,9 @@
     <Content Include="Views\Risiko\Details.cshtml" />
     <Content Include="Views\Risiko\Edit.cshtml" />
     <Content Include="Views\Risiko\Index.cshtml" />
+    <Content Include="Views\Kontrolle\ErledigtIndex.cshtml" />
+    <Content Include="Views\Aufgabe\ErledigtIndex.cshtml" />
+    <Content Include="Views\Aufgabe\CloseEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1058,69 +1002,24 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201910111219462_initial.resx">
-      <DependentUpon>201910111219462_initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910111223435_entitykontrolle.resx">
-      <DependentUpon>201910111223435_entitykontrolle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910161630317_benutzer.resx">
-      <DependentUpon>201910161630317_benutzer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910190928123_namevorname.resx">
-      <DependentUpon>201910190928123_namevorname.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910191440162_columename.resx">
-      <DependentUpon>201910191440162_columename.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910191827054_applicationuser.resx">
-      <DependentUpon>201910191827054_applicationuser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910191837340_applicationuser2.resx">
-      <DependentUpon>201910191837340_applicationuser2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910200726086_kategorie.resx">
-      <DependentUpon>201910200726086_kategorie.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910200735146_aufgabeinkontrolle.resx">
-      <DependentUpon>201910200735146_aufgabeinkontrolle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910200745465_aufgabeapplicationuser.resx">
-      <DependentUpon>201910200745465_aufgabeapplicationuser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910200938436_risikobew.resx">
-      <DependentUpon>201910200938436_risikobew.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201002016_displayid.resx">
-      <DependentUpon>201910201002016_displayid.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201127569_dokument.resx">
-      <DependentUpon>201910201127569_dokument.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201129415_dokument2.resx">
-      <DependentUpon>201910201129415_dokument2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201244414_dokument3.resx">
-      <DependentUpon>201910201244414_dokument3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201306046_prozess.resx">
-      <DependentUpon>201910201306046_prozess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201322508_fremdschluessel.resx">
-      <DependentUpon>201910201322508_fremdschluessel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201332347_datekontrollenull.resx">
-      <DependentUpon>201910201332347_datekontrollenull.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910201350237_prozess1.resx">
-      <DependentUpon>201910201350237_prozess1.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201910241219538_initial.resx">
+      <DependentUpon>201910241219538_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910241420045_dokumentstring.resx">
+      <DependentUpon>201910241420045_dokumentstring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910241423054_dokumentgueltigbis.resx">
+      <DependentUpon>201910241423054_dokumentgueltigbis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910251209526_doc.resx">
+      <DependentUpon>201910251209526_doc.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

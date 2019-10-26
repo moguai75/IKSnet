@@ -1,37 +1,50 @@
 ﻿@model IKSnet.Models.Organisationseinheit
 
 @{
-    ViewBag.Title = "Delete";
+    ViewBag.Title = "Organisationseinheit löschen"
 }
-<h2>Organisationseinheit löschen</h2>
-@Html.ActionLink("Zurück auf Organisationseinheitsverwaltung", "Index")
-<hr />
-<div>
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Kurzbezeichnung)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Kurzbezeichnung)
-        </dd>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Organisationseinheit löschen</h4>
+    </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Bezeichnung)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Zurück auf Organisationseinheitverwaltung", "Index")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Bezeichnung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ID)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Kurzbezeichnung)
+            </dt>
 
-    </dl>
+            <dd>
+                @Html.DisplayFor(model => model.Kurzbezeichnung)
+            </dd>
 
-    @using (Html.BeginForm())
-    {
-        @Html.AntiForgeryToken()
+            <dt>
+                @Html.DisplayNameFor(model => model.Bezeichnung)
+            </dt>
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" />
-        </div>
-    }
+            <dd>
+                @Html.DisplayFor(model => model.Bezeichnung)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Löschen" class="btn btn-default" />
+            </div>
+        }
+    </div>
 </div>

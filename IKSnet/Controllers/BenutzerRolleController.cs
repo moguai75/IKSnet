@@ -49,8 +49,8 @@ namespace IKSnet.Controllers
             var userMgr = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
             var appUser = new ApplicationUser
             {
-                UserName = "it@ak34.ch",
-                Email = "it@ak34.ch",
+                UserName = "admin@ak34.ch",
+                Email = "admin@ak34.ch",
                 Name = "Administrator",
                 Vorname = "IT",
                 BenutzerName ="Administrator IT",
@@ -58,13 +58,45 @@ namespace IKSnet.Controllers
                 LockoutEnabled = true,
                 Status = Status.Aktiviert
             };
-            IdUserResult = userMgr.Create(appUser, "Ronda13+");
+            var appUser2 = new ApplicationUser
+            {
+                UserName = "demo@ak34.ch",
+                Email = "demo@ak34.ch",
+                Name = "Demo",
+                Vorname = "Mitarbeiter",
+                BenutzerName = "Demo Mitarbeiter",
+                EmailConfirmed = true,
+                LockoutEnabled = true,
+                Status = Status.Aktiviert
+            };
+            var appUser3 = new ApplicationUser
+            {
+                UserName = "demoiks@ak34.ch",
+                Email = "demoiks@ak34.ch",
+                Name = "DemoIKS",
+                Vorname = "Manager",
+                BenutzerName = "DemoIKS Manager",
+                EmailConfirmed = true,
+                LockoutEnabled = true,
+                Status = Status.Aktiviert
+            };
+            IdUserResult = userMgr.Create(appUser, "Demo13+");
+            IdUserResult = userMgr.Create(appUser2, "Demo13+");
+            IdUserResult = userMgr.Create(appUser3, "Demo13+");
 
             // If the new "canEdit" user was successfully created, 
             // add the "canEdit" user to the "canEdit" role. 
-            if (!userMgr.IsInRole(userMgr.FindByEmail("it@ak34.ch").Id, "Administrator"))
+            if (!userMgr.IsInRole(userMgr.FindByEmail("admin@ak34.ch").Id, "Administrator"))
             {
-                IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("it@ak34.ch").Id, "Administrator");
+                IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("admin@ak34.ch").Id, "Administrator");
+            }
+            if (!userMgr.IsInRole(userMgr.FindByEmail("demo@ak34.ch").Id, "Mitarbeiter"))
+            {
+                IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("demo@ak34.ch").Id, "Mitarbeiter");
+            }
+            if (!userMgr.IsInRole(userMgr.FindByEmail("demoiks@ak34.ch").Id, "IKS-Manager"))
+            {
+                IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("demoiks@ak34.ch").Id, "IKS-Manager");
             }
         }
     }

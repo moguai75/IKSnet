@@ -1,42 +1,49 @@
 ﻿@model IKSnet.Models.Prozess
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detail Prozess";
 }
 
-<h2>Details</h2>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Detail Prozess</h4>
+    </div>
 
-<div>
-    <h4>Prozess</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Prozesskategorie.Bezeichnung)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Mutieren", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Zurück auf Prozessverwaltung", "Index")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Prozesskategorie.Bezeichnung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ID)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Titel)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Titel)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Titel)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Titel)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Beschreibung)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Beschreibung)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Beschreibung)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Prozesskategorie.Bezeichnung)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Beschreibung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Prozesskategorie.Bezeichnung)
+            </dd>
 
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+        </dl>
+    </div>
+ </div>

@@ -1,29 +1,41 @@
 ﻿@model IKSnet.Models.Organisationseinheit
-
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detail Organisationseinheit";
 }
-<h2>Detail Organisationseinheit</h2>
-@Html.ActionLink("Zurück auf Organisationseinheitsverwaltung", "Index") |
-@Html.ActionLink("Mutieren", "Edit", new { id = Model.ID })
-<hr />
-<div>
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Kurzbezeichnung)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Kurzbezeichnung)
-        </dd>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Detail Organisationseinheitsverwaltung</h4>
+    </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Bezeichnung)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Mutieren", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Zurück auf Organisationseinheitsverwaltung", "Index")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Bezeichnung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ID)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Kurzbezeichnung)
+            </dt>
 
-    </dl>
+            <dd>
+                @Html.DisplayFor(model => model.Kurzbezeichnung)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Bezeichnung)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Bezeichnung)
+            </dd>
+
+        </dl>
+    </div>
 </div>

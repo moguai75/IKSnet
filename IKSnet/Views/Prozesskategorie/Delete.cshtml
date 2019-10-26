@@ -1,29 +1,36 @@
 ﻿@model IKSnet.Models.Prozesskategorie
 
 @{
-    ViewBag.Title = "Delete";
-}
-<h2>Prozesskategorie löschen</h2>
-@Html.ActionLink("Zurück auf Prozesskategorieverwaltung", "Index")
-<hr />
-<div>
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Bezeichnung)
-        </dt>
+      ViewBag.Title = "Prozesskategorieverwaltung löschen";
+ }
 
-        <dd>
-            @Html.DisplayFor(model => model.Bezeichnung)
-        </dd>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Prozesskategorie löschen</h4>
+    </div>
 
-    </dl>
+    <div class="panel-body">
+        @Html.ActionLink("Zurück auf Prozesskategorieverwaltung", "Index")
+        <hr />
+        
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Bezeichnung)
+                </dt>
 
-    @using (Html.BeginForm())
-    {
-        @Html.AntiForgeryToken()
+                <dd>
+                    @Html.DisplayFor(model => model.Bezeichnung)
+                </dd>
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Löschen" class="btn btn-default" />
+                </div>
+            }
         </div>
-    }
-</div>
+    </div>

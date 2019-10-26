@@ -1,18 +1,22 @@
 ﻿@model IKSnet.Models.Aufgabe
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Aufgabe erfassen";
 }
 
-<h2>Create</h2>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Aufgabe erfassen</h4>
+    </div>
 
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
+    <div class="panel-body">
+        @Html.ActionLink("Zurück auf Aufgabenverwaltung", "Index")
+        <hr />
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
-        <h4>Aufgabe</h4>
-        <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
             @Html.LabelFor(model => model.Titel, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -47,59 +51,41 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.KontrollID, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.KontrolleID, "Zugeordnete Kontrolle", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.KontrollID, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.KontrollID, "", new { @class = "text-danger" })
+                @Html.DropDownList("KontrolleID", null, htmlAttributes: new { @class = "form-control" }, optionLabel: "")
+                @Html.ValidationMessageFor(model => model.KontrolleID, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ApplicationUserID, "ApplicationUserID", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.ApplicationUserID, "Verantwortlich", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("ApplicationUserID", null, htmlAttributes: new { @class = "form-control" })
+                @Html.DropDownList("ApplicationUserID", null, htmlAttributes: new { @class = "form-control" }, optionLabel: "")
                 @Html.ValidationMessageFor(model => model.ApplicationUserID, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Kommentar, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Kommentar, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Kommentar, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Dokument, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Dokument, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Dokument, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Speichern" class="btn btn-default" />
             </div>
         </div>
     </div>
-}
+        }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
+    </div>
 </div>
-
-@section Scripts {
-    <script src="~/content/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-    <script src="~/content/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js"></script>
-    <script>
-        $(function () {
-            //Date picker
-            $('#datepickerFaellig').datepicker({
-                language: 'de',
-                autoclose: true
-            })
-        })
-    </script>
-}
+        @section Scripts {
+            <script src="~/content/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+            <script src="~/content/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js"></script>
+            <script>
+                $(function () {
+                    //Date picker
+                    $('#datepickerFaellig').datepicker({
+                        language: 'de',
+                        autoclose: true
+                    })
+                })
+            </script>
+        }

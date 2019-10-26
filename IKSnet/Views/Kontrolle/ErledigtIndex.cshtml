@@ -1,0 +1,101 @@
+﻿@model IEnumerable<IKSnet.Models.Kontrolle>
+
+@{
+    ViewBag.Title = "Erledigte Kontrolle";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Erledigte Kontrolle</h4>
+    </div>
+
+    <div class="panel-body">
+        <p>
+            @Html.ActionLink("Neue Kontrolle erfassen", "Create") |
+            @Html.ActionLink("Aktive Kontrollen anzeigen", "Index")
+        </p>
+        <table class="table table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Titel)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Beschreibung)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ApplicationUser.BenutzerName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Organisationseinheit.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Risiko.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Start)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ende)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.KontrollFrequenz)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.KontrollArt)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+                @foreach (var item in Model)
+                {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Beschreibung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApplicationUser.BenutzerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Organisationseinheit.Bezeichnung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Risiko.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Start)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ende)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KontrollFrequenz)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KontrollArt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Mutieren", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Löschen", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+                }
+
+        </table>
+    </div>
+</div>

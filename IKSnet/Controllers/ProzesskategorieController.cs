@@ -110,6 +110,11 @@ namespace IKSnet.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Prozesskategorie prozesskategorie = db.Prozesskategories.Find(id);
+            if (prozesskategorie.Prozesss.Count != 0)
+            {
+                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                return View(prozesskategorie);
+            }
             db.Prozesskategories.Remove(prozesskategorie);
             db.SaveChanges();
             return RedirectToAction("Index");

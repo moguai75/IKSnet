@@ -16,16 +16,19 @@
             <thead class="thead-light">
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model => model.Prozessaktivitaet.Titel)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Risikokategorie.Bezeichnung)
+                        @Html.DisplayNameFor(model => model.ID)
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Titel)
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Risikobeschreibung)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Prozessaktivitaet.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Risikokategorie.ID)
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Eintrittswahrscheinlichkeit)
@@ -41,34 +44,50 @@
             </thead>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Prozessaktivitaet.Titel)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Risikokategorie.Bezeichnung)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Titel)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Risikobeschreibung)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Eintrittswahrscheinlichkeit)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Schadenausmass)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Bewertung)
-                    </td>
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-                    </td>
-                </tr>
+                string riskcell = "";
+                if (item.Bewertung < 6)
+                    {
+                        riskcell = "success";
+                    }
+                    else if(item.Bewertung < 9)
+                    {
+                        riskcell = "warning";
+                    }
+                    else if(item.Bewertung > 8)
+                    {
+                        riskcell = "danger";
+                    }
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Risikobeschreibung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prozessaktivitaet.Titel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Risikokategorie.Bezeichnung)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eintrittswahrscheinlichkeit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Schadenausmass)
+            </td>
+            <td class="@riskcell">
+                @Html.DisplayFor(modelItem => item.Bewertung)
+            </td>
+            <td>
+                @Html.ActionLink("Mutieren", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Löschen", "Delete", new { id = item.ID })
+            </td>
+        </tr>
             }
 
         </table>

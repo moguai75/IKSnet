@@ -39,7 +39,7 @@ namespace IKSnet.Controllers
         // GET: Risiko/Create
         public ActionResult Create()
         {
-            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "Titel");
+            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "ID");
             ViewBag.RisikokategorieID = new SelectList(db.Risikokategories, "ID", "Bezeichnung");
             return View();
         }
@@ -53,12 +53,19 @@ namespace IKSnet.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Enum in int
+                var riskeintritt = risiko.Eintrittswahrscheinlichkeit;
+                int valueeintritt = (int)riskeintritt;
+                var riskschaden = risiko.Schadenausmass;
+                int valueschaden = (int)riskschaden;
+                //Berechnung Risikobewertung
+                risiko.Bewertung = valueeintritt + valueschaden;
                 db.Risikos.Add(risiko);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "Titel", risiko.ProzessaktivitaetID);
+            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "ID", risiko.ProzessaktivitaetID);
             ViewBag.RisikokategorieID = new SelectList(db.Risikokategories, "ID", "Bezeichnung", risiko.RisikokategorieID);
             return View(risiko);
         }
@@ -75,7 +82,7 @@ namespace IKSnet.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "Titel", risiko.ProzessaktivitaetID);
+            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "ID", risiko.ProzessaktivitaetID);
             ViewBag.RisikokategorieID = new SelectList(db.Risikokategories, "ID", "Bezeichnung", risiko.RisikokategorieID);
             return View(risiko);
         }
@@ -89,11 +96,18 @@ namespace IKSnet.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Enum in int
+                var riskeintritt = risiko.Eintrittswahrscheinlichkeit;
+                int valueeintritt = (int)riskeintritt;
+                var riskschaden = risiko.Schadenausmass;
+                int valueschaden = (int)riskschaden;
+                //Berechnung Risikobewertung
+                risiko.Bewertung = valueeintritt + valueschaden;
                 db.Entry(risiko).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "Titel", risiko.ProzessaktivitaetID);
+            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "ID", risiko.ProzessaktivitaetID);
             ViewBag.RisikokategorieID = new SelectList(db.Risikokategories, "ID", "Bezeichnung", risiko.RisikokategorieID);
             return View(risiko);
         }
@@ -119,6 +133,11 @@ namespace IKSnet.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Risiko risiko = db.Risikos.Find(id);
+            if (risiko.Kontrolles.Count != 0)
+            {
+                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                return View(risiko);
+            }
             db.Risikos.Remove(risiko);
             db.SaveChanges();
             return RedirectToAction("Index");

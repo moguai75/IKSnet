@@ -1,64 +1,74 @@
 ﻿@model IKSnet.Models.Dokument
 
 @{
-    ViewBag.Title = "Delete";
+    ViewBag.Title = "Dokument löschen";
 }
 
-<h2>Delete</h2>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Dokument löschen</h4>
+    </div>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Dokument</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Titel)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Zurück auf Dokumentverwaltung", "Index")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Titel)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ID)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Titel)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Beschreibung)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Titel)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Beschreibung)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Beschreibung)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.GueltigAb)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Beschreibung)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.GueltigAb)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.GueltigAb)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.GueltigBis)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.GueltigAb)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.GueltigBis)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.GueltigBis)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Link)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.GueltigBis)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Link)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Dateiname)
+            </dt>
 
-    </dl>
+            <dd>
+                @Html.DisplayFor(model => model.Dateiname)
+            </dd>
 
-    @using (Html.BeginForm()) {
-        @Html.AntiForgeryToken()
+        </dl>
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
-        </div>
-    }
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Löschen" class="btn btn-default" />
+            </div>
+        }
+    </div>
 </div>

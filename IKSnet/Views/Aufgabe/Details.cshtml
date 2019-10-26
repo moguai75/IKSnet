@@ -1,82 +1,97 @@
 ﻿@model IKSnet.Models.Aufgabe
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detail Aufgabe";
 }
 
-<h2>Details</h2>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Detail Aufgabe</h4>
+    </div>
 
-<div>
-    <h4>Aufgabe</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.ApplicationUser.BenutzerName)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Mutieren", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Zurück auf Aufgabenverwaltung", "Index")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ApplicationUser.BenutzerName)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ID)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Titel)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Titel)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Titel)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Titel)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Beschreibung)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Beschreibung)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Beschreibung)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.ApplicationUser.BenutzerName)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Beschreibung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ApplicationUser.BenutzerName)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Faellig)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Faellig)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Faellig)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Faellig)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Status)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Status)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.KontrollID)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Kontrolle.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.KontrollID)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Kontrolle.Titel)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Kommentar)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Kommentar)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Kommentar)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Kommentar)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Dokument)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Erledigt)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Dokument)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Erledigt)
+            </dd>
 
-    </dl>
+            <dt>
+                @Html.DisplayNameFor(model => model.Dokument)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Dokument)
+            </dd>
+
+        </dl>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

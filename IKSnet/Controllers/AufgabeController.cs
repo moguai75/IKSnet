@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -17,7 +18,14 @@ namespace IKSnet.Controllers
         // GET: Aufgabe
         public ActionResult Index()
         {
-            var aufgabes = db.Aufgabes.Include(a => a.ApplicationUser);
+            var aufgabes = db.Aufgabes.Include(a => a.ApplicationUser).Include(a => a.Kontrolle).Where(a => a.Status < AufgabeStatus.Abgeschlossen);
+            return View(aufgabes.ToList());
+        }
+
+
+        public ActionResult ErledigtIndex()
+        {
+            var aufgabes = db.Aufgabes.Include(a => a.ApplicationUser).Include(a => a.Kontrolle).Where(a => a.Status == AufgabeStatus.Abgeschlossen);
             return View(aufgabes.ToList());
         }
 
@@ -40,6 +48,7 @@ namespace IKSnet.Controllers
         public ActionResult Create()
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
+            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel");
             return View();
         }
 
@@ -48,7 +57,7 @@ namespace IKSnet.Controllers
         // finden Sie unter https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Titel,Beschreibung,Faellig,Status,KontrollID,ApplicationUserID,Kommentar,Dokument")] Aufgabe aufgabe)
+        public ActionResult Create([Bind(Include = "ID,Titel,Beschreibung,Faellig,Status,KontrolleID,ApplicationUserID,Kommentar,Visum,Dokument,Erledigt")] Aufgabe aufgabe)
         {
             if (ModelState.IsValid)
             {
@@ -58,6 +67,7 @@ namespace IKSnet.Controllers
             }
 
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel", aufgabe.KontrolleID);
             return View(aufgabe);
         }
 
@@ -74,6 +84,7 @@ namespace IKSnet.Controllers
                 return HttpNotFound();
             }
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel", aufgabe.KontrolleID);
             return View(aufgabe);
         }
 
@@ -82,7 +93,7 @@ namespace IKSnet.Controllers
         // finden Sie unter https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Titel,Beschreibung,Faellig,Status,KontrollID,ApplicationUserID,Kommentar,Dokument")] Aufgabe aufgabe)
+        public ActionResult Edit([Bind(Include = "ID,Titel,Beschreibung,Faellig,Status,KontrolleID,ApplicationUserID,Kommentar,Dokument,Visum,Erledigt")] Aufgabe aufgabe)
         {
             if (ModelState.IsValid)
             {
@@ -91,8 +102,101 @@ namespace IKSnet.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel", aufgabe.KontrolleID);
             return View(aufgabe);
         }
+
+
+        public ActionResult CloseEdit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Aufgabe aufgabe = db.Aufgabes.Find(id);
+            if (aufgabe == null)
+            {
+                return HttpNotFound();
+            }
+            ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel", aufgabe.KontrolleID);
+            return View(aufgabe);
+        }
+
+        // POST: Aufgabe/Close/5
+        //Abschliessen der Aufgabe durch den Mitarbeiter
+        // Aktivieren Sie zum Schutz vor übermäßigem Senden von Angriffen die spezifischen Eigenschaften, mit denen eine Bindung erfolgen soll. Weitere Informationen 
+        // finden Sie unter https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CloseEdit([Bind(Include = "ID,Titel,Beschreibung,Faellig,Status,KontrolleID,ApplicationUserID,Kommentar,Dokument,Visum,Erledigt")] Aufgabe aufgabe, HttpPostedFileBase upload)
+        {
+            if (ModelState.IsValid)
+            {
+                //Prüfen, ob ein Dokument hinzugefügt werden soll
+                if (upload != null && upload.ContentLength > 0)
+                {
+                    //Speicherung des Dokuments
+                    try
+                    {
+                    string jahr = DateTime.Now.Year.ToString();
+                    string monat = DateTime.Now.Month.ToString();
+                    string day = DateTime.Now.Day.ToString();
+                    string std = DateTime.Now.Hour.ToString();
+                    string min = DateTime.Now.Minute.ToString();
+                    string sek = DateTime.Now.Second.ToString();
+                    string time = jahr + monat + day + std + min + sek;
+                    string filename = time + "_" + System.IO.Path.GetFileName(upload.FileName);
+                    aufgabe.Dokument = filename;
+                    upload.SaveAs(System.Configuration.ConfigurationManager.AppSettings["AblageAufgabe"] + filename);
+                    }
+                    //Falls Speicherung nicht erfolgreich, Fehlermeldung ausgeben
+                    catch
+                    {
+                        return new HttpStatusCodeResult(HttpStatusCode.NotFound, "Dokument konnte nicht gespeichert werden");
+                    }
+
+                }
+                aufgabe.Status = AufgabeStatus.Abgeschlossen;
+                aufgabe.Erledigt = DateTime.Now;
+                db.Entry(aufgabe).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel", aufgabe.KontrolleID);
+            return View(aufgabe);
+        }
+
+        //Anzeigen eines hinzugefügten Dokuments nach Abschluss der Aufgabe.
+        public ActionResult Show(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            //Selektion der Aufgabe über die id
+            Aufgabe aufgabe = db.Aufgabes.Find(id);
+            if (aufgabe == null)
+            {
+                return HttpNotFound();
+            }
+            var path = System.Configuration.ConfigurationManager.AppSettings["AblageAufgabe"];
+            try
+            {
+                var fileStream = new FileStream(path + aufgabe.Dokument,
+                                                 FileMode.Open,
+                                                 FileAccess.Read
+                                               );
+                return File(fileStream, MimeMapping.GetMimeMapping(path + aufgabe.Dokument), aufgabe.Dokument);
+            }
+            catch
+            {
+                return RedirectToAction("Index");
+            }
+        }
+
+
 
         // GET: Aufgabe/Delete/5
         public ActionResult Delete(int? id)

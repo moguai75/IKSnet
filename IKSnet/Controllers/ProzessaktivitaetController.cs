@@ -62,7 +62,7 @@ namespace IKSnet.Controllers
             {
                 db.Prozessaktivitaets.Add(prozessaktivitaet);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Prozess");
             }
 
             ViewBag.ProzessID = new SelectList(db.Prozesss, "ID", "Titel", prozessaktivitaet.ProzessID);
@@ -96,7 +96,7 @@ namespace IKSnet.Controllers
             {
                 db.Entry(prozessaktivitaet).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Prozess");
             }
             ViewBag.ProzessID = new SelectList(db.Prozesss, "ID", "Titel", prozessaktivitaet.ProzessID);
             return View(prozessaktivitaet);
@@ -124,8 +124,13 @@ namespace IKSnet.Controllers
         {
             Prozessaktivitaet prozessaktivitaet = db.Prozessaktivitaets.Find(id);
             db.Prozessaktivitaets.Remove(prozessaktivitaet);
+            if (prozessaktivitaet.Risikos.Count != 0)
+            {
+                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                return View(prozessaktivitaet);
+            }
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Prozess");
         }
 
         protected override void Dispose(bool disposing)

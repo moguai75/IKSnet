@@ -1,98 +1,147 @@
 ﻿@model IKSnet.Models.Kontrolle
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detail Kontrolle";
 }
 
-<h2>Details</h2>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Detail Kontrolle</h4>
+    </div>
 
-<div>
-    <h4>Kontrolle</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.ApplicationUser.BenutzerName)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Mutieren", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Zurück auf Kontrolleverwaltung", "Index")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ApplicationUser.BenutzerName)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ID)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Titel)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Organisationseinheit.Kurzbezeichnung)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Titel)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Organisationseinheit.Kurzbezeichnung)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Beschreibung)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Risiko.Titel)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Beschreibung)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.ApplicationUser.BenutzerName)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Risiko.Titel)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ApplicationUser.BenutzerName)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Titel)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Organisationseinheit.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Titel)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Organisationseinheit.Bezeichnung)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Beschreibung)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Risiko.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Beschreibung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Risiko.Titel)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Start)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Start)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Start)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Start)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Ende)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Ende)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Ende)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Ende)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.KontrollFrequenz)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.KontrollFrequenz)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.KontrollFrequenz)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.KontrollFrequenz)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.KontrollArt)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.KontrollArt)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.KontrollArt)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.KontrollArt)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Status)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-
-    </dl>
+        </dl>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+
+
+    <div class="panel panel-primary">
+        <div class="panel-heading" >
+            <h4>Zugeordnete Aufgaben</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>
+                @Html.ActionLink("Neue Aufgabe erfassen", "Create", "Kontrolle")
+            </p>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Titel</th>
+                        <th>Beschreibung</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model.Aufgabes.Where(item => item.Status < IKSnet.Models.AufgabeStatus.Abgeschlossen).OrderBy(item => item.ID))
+                {
+            <tr>
+                <td>
+                    @item.ID
+                </td>
+                <td>
+                    @item.Titel
+                </td>
+                <td>
+                    @item.Beschreibung
+                </td>
+                <td>
+                    @item.Status
+                </td>
+            </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+

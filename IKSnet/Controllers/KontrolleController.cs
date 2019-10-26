@@ -14,10 +14,17 @@ namespace IKSnet.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: Kontrolle
+        // GET: Aktive Kontrolle
         public ActionResult Index()
         {
-            var kontrolles = db.Kontrolles.Include(k => k.ApplicationUser).Include(k => k.Organisationseinheit).Include(k => k.Risiko);
+            var kontrolles = db.Kontrolles.Include(k => k.ApplicationUser).Include(k => k.Organisationseinheit).Include(k => k.Risiko).Where(k => k.Status < KontrollStatus.Inaktiv);
+            return View(kontrolles.ToList());
+        }
+
+        // GET: Erledigte Kontrolle
+        public ActionResult ErledigtIndex()
+        {
+            var kontrolles = db.Kontrolles.Include(k => k.ApplicationUser).Include(k => k.Organisationseinheit).Include(k => k.Risiko).Where(k => k.Status == KontrollStatus.Inaktiv);
             return View(kontrolles.ToList());
         }
 
@@ -40,7 +47,7 @@ namespace IKSnet.Controllers
         public ActionResult Create()
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
-            ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Kurzbezeichnung");
+            ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Bezeichnung");
             ViewBag.RisikoID = new SelectList(db.Risikos, "ID", "Titel");
             return View();
         }
@@ -78,7 +85,7 @@ namespace IKSnet.Controllers
                 return HttpNotFound();
             }
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", kontrolle.ApplicationUserID);
-            ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Kurzbezeichnung", kontrolle.OrganisationseinheitID);
+            ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Bezeichnung", kontrolle.OrganisationseinheitID);
             ViewBag.RisikoID = new SelectList(db.Risikos, "ID", "Titel", kontrolle.RisikoID);
             return View(kontrolle);
         }
@@ -123,6 +130,11 @@ namespace IKSnet.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Kontrolle kontrolle = db.Kontrolles.Find(id);
+            if (kontrolle.Aufgabes.Count != 0)
+            {
+                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                return View(kontrolle);
+            }
             db.Kontrolles.Remove(kontrolle);
             db.SaveChanges();
             return RedirectToAction("Index");

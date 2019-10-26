@@ -18,8 +18,9 @@ namespace IKSnet.Models
         public string Risikobeschreibung { get; set; }
         public Eintritt Eintrittswahrscheinlichkeit { get; set; }
         public Schaden Schadenausmass { get; set; }
-        public int Bewertung { get; set; }
-        public int ProzessaktivitaetID { get; set; }
+        public int? Bewertung { get; set; }
+        public int? ProzessaktivitaetID { get; set; }
+        [Display(Name = "Risikokategorie")]
         public int RisikokategorieID { get; set; }
         public virtual Prozessaktivitaet Prozessaktivitaet { get; set; }
         public virtual Risikokategorie Risikokategorie { get; set; }
@@ -33,7 +34,7 @@ namespace IKSnet.Models
         public int ID { get; set; }
         [Required]
         public string Bezeichnung { get; set; }
-        public virtual ICollection<Risiko> Risiko { get; set; }
+        public virtual ICollection<Risiko> Risikos { get; set; }
     }
 
     public enum Schaden
@@ -95,9 +96,12 @@ namespace IKSnet.Models
         [Required]
         public string Beschreibung { get; set; }
         [Display(Name = "Verantwortlich")]
+        [Required]
         public string ApplicationUserID { get; set; }
+        [Display(Name = "Organisationseinheit")]
         public int OrganisationseinheitID { get; set; }
-        public int RisikoID { get; set; }
+        [Display(Name = "Risiko")]
+        public int? RisikoID { get; set; }
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
         public DateTime Start { get; set; }
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
@@ -133,6 +137,7 @@ namespace IKSnet.Models
         public string Titel { get; set; }
         [Required]
         public string Beschreibung { get; set; }
+        [Display(Name = "Prozesskategorie")]
         public int ProzesskategorieID { get; set; }
         public virtual Prozesskategorie Prozesskategorie { get; set; }
         public virtual ICollection<Prozessaktivitaet> Prozessaktivitaets { get; set; }
@@ -145,7 +150,7 @@ namespace IKSnet.Models
         public int ID { get; set; }
         [Required]
         public string Bezeichnung { get; set; }
-        public virtual ICollection<Prozess> Prozess { get; set; }
+        public virtual ICollection<Prozess> Prozesss { get; set; }
     }
 
 
@@ -171,18 +176,25 @@ namespace IKSnet.Models
         [Display(Name = "Aufgabe")]
         public int ID { get; set; }
         [Required]
-        public int Titel { get; set; }
+        public string Titel { get; set; }
         [Required]
         public string Beschreibung { get; set; }
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
         [Display(Name = "Fällig am")]
         public DateTime Faellig { get; set; }
-        public AufgabeStatus Status { get; set; } 
-        public int KontrollID { get; set; }
+        public AufgabeStatus Status { get; set; }
+        [Display(Name = "Zugeordnete Kontrolle")]
+        public int KontrolleID { get; set; }
         [Display(Name = "Verantwortlich")]
+        [Required]
         public string ApplicationUserID { get; set; }
         public string Kommentar { get; set; }
+        public string Visum { get; set; }
         public string Dokument { get; set; }
+        [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
+        [Display(Name = "Erledigt am")]
+        public DateTime? Erledigt { get; set; }
+
         public virtual Kontrolle Kontrolle { get; set; }
         public virtual ApplicationUser ApplicationUser { get; set; }
 
@@ -193,7 +205,7 @@ namespace IKSnet.Models
         [Display(Name = "Dokument")]
         public int ID { get; set; }
         [Required]
-        public int Titel { get; set; }
+        public string Titel { get; set; }
         [Required]
         public string Beschreibung { get; set; }
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
@@ -201,8 +213,8 @@ namespace IKSnet.Models
         public DateTime GueltigAb { get; set; }
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
         [Display(Name = "Gültig bis")]
-        public DateTime GueltigBis { get; set; }
-        public string Link { get; set; }    
+        public DateTime? GueltigBis { get; set; }
+        public string Dateiname { get; set; }    
 
     }
 

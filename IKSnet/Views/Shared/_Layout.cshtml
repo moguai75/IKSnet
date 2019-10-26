@@ -84,9 +84,35 @@ desired effect
                     {
                         <li><a href="@Url.Action("Index", "Prozess")"><i class="fa fa-laptop"></i><span>Prozess</span></a></li>
                         <li><a href="@Url.Action("Index", "Risiko")"><i class="fa fa-eye"></i><span>Risiko</span></a></li>
-                        <li><a href="@Url.Action("Index", "Kontrolle")"><i class="fa fa-pie-chart"></i><span>Kontrolle</span></a></li>
+
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-pie-chart"></i> <span>Kontrolle</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="@Url.Action("Index", "Kontrolle")"><i class="fa fa-folder-o"></i><span>Aktive Kontrollen</span></a></li>
+                                <li><a href="@Url.Action("ErledigtIndex", "Kontrolle")"><i class="fa fa-folder-o"></i><span>Erledigte Kontrollen</span></a></li>
+                            </ul>
+                        </li>
                     }
-                    <li><a href="@Url.Action("Index", "Aufgabe")"><i class="fa fa-calendar"></i><span>Aufgabe</span></a></li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-calendar"></i> <span>Aufgabe</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Index", "Aufgabe")"><i class="fa fa-folder-o"></i><span>Aktive Aufgaben</span></a></li>
+                            @if (User.IsInRole("Administrator") || User.IsInRole("IKS-Manager"))
+                            {
+                                <li><a href="@Url.Action("ErledigtIndex", "Aufgabe")"><i class="fa fa-folder-o"></i><span>Erledigte Aufgaben</span></a></li>
+                            }
+                        </ul>
+                    </li>
                     <li><a href="@Url.Action("Index", "Dokument")"><i class="fa fa-book"></i><span>Dokument</span></a></li>
                     @if (User.IsInRole("Administrator"))
                     {

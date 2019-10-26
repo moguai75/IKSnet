@@ -1,74 +1,123 @@
 ﻿@model IKSnet.Models.Risiko
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detail Risiko";
 }
 
-<h2>Details</h2>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Detail Risiko</h4>
+    </div>
 
-<div>
-    <h4>Risiko</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Prozessaktivitaet.Titel)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Mutieren", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Zurück auf Risikoverwaltung", "Index")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Prozessaktivitaet.Titel)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.ID)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Risikokategorie.Bezeichnung)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Titel)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Risikokategorie.Bezeichnung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Titel)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Titel)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Risikobeschreibung)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Titel)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Risikobeschreibung)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Risikobeschreibung)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Prozessaktivitaet.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Risikobeschreibung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Prozessaktivitaet.Titel)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Eintrittswahrscheinlichkeit)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Risikokategorie.ID)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Eintrittswahrscheinlichkeit)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Risikokategorie.Bezeichnung)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Schadenausmass)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Eintrittswahrscheinlichkeit)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Schadenausmass)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Eintrittswahrscheinlichkeit)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Bewertung)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Schadenausmass)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Bewertung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Schadenausmass)
+            </dd>
 
-    </dl>
+            <dt>
+                @Html.DisplayNameFor(model => model.Bewertung)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Bewertung)
+            </dd>
+
+        </dl>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>Zugeordnete Kontrollen</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>
+                @Html.ActionLink("Neue Kontrolle erfassen", "Create", "Kontrolle")
+            </p>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Titel</th>
+                        <th>Beschreibung</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model.Kontrolles.Where(item => item.Status < IKSnet.Models.KontrollStatus.Inaktiv).OrderBy(item => item.ID))
+                {
+            <tr>
+                <td>
+                    @item.ID
+                </td>
+                <td>
+                    @item.Titel
+                </td>
+                <td>
+                    @item.Beschreibung
+                </td>
+                <td>
+                    @item.Status
+                </td>
+            </tr>
+                }
+
+            </table>
+        </div>
+    </div>

@@ -110,6 +110,12 @@ namespace IKSnet.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Risikokategorie risikokategorie = db.Risikokategories.Find(id);
+            //Check auf zugeordnete Risiken
+            if (risikokategorie.Risikos.Count != 0)
+            {
+                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                return View(risikokategorie);
+            }
             db.Risikokategories.Remove(risikokategorie);
             db.SaveChanges();
             return RedirectToAction("Index");

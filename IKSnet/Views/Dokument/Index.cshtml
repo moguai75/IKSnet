@@ -16,6 +16,9 @@
             <thead class="thead-light">
                 <tr>
                     <th>
+                        @Html.DisplayNameFor(model => model.ID)
+                    </th>
+                    <th>
                         @Html.DisplayNameFor(model => model.Titel)
                     </th>
                     <th>
@@ -27,37 +30,33 @@
                     <th>
                         @Html.DisplayNameFor(model => model.GueltigBis)
                     </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Link)
-                    </th>
                     <th></th>
                 </tr>
             </thead>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Titel)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Beschreibung)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.GueltigAb)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.GueltigBis)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Link)
-                        </td>
-                        <td>
-                            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-                            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-                        </td>
-                    </tr>
-                }
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Show", "Dokument", new { id = item.ID })">@Html.DisplayFor(modelItem => item.Titel)</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Beschreibung)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GueltigAb)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GueltigBis)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Mutieren", "Edit", new { id = item.ID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ID })
+                    </td>
+                </tr>
+            }
 
         </table>
     </div>

@@ -215,9 +215,6 @@ C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.AspNet.Identity.EntityFr
 C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.CopyComplete
 C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.dll
 C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.pdb
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
 C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
 C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
 C:\Users\Morpheus\source\repos\IKSnet - Kopie - Test - 2\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
@@ -939,7 +936,6 @@ C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - 
 C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.dll
 C:\Users\Morpheus\source\repos\IKSnet - AdminLTE - minPlugin - LoginPageindiv - Kopie\IKSnet\obj\Debug\IKSnet.pdb
 C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.entitykontrolle.resources
 C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
 C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\Users\Morpheus\source\repos\IKSnet\IKSnet\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
@@ -971,39 +967,13 @@ C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Facebook.r
 C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\lr\source\repos\IKSnet\IKSnet\bin\de\Microsoft.Owin.Security.Twitter.resources.dll
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.benutzer.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.benutzer.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.namevorname.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.columename.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser2.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.kategorie.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeinkontrolle.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeapplicationuser.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.risikobew.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.displayid.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument2.resources
 C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument3.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.fremdschluessel.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.datekontrollenull.resources
-C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess1.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.namevorname.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.columename.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.applicationuser2.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.kategorie.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeinkontrolle.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.aufgabeapplicationuser.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.risikobew.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.displayid.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument2.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokument3.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.fremdschluessel.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.datekontrollenull.resources
-C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.prozess1.resources
 C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csprojAssemblyReference.cache
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.initial.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.csproj.GenerateResource.cache
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokumentstring.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokumentgueltigbis.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokumentstring.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.dokumentgueltigbis.resources
+C:\Users\lr\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.doc.resources
+C:\Users\Morpheus\source\repos\IKSnet\IKSnet\obj\Debug\IKSnet.Migrations.doc.resources

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -46,10 +47,32 @@ namespace IKSnet.Controllers
         // finden Sie unter https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Titel,Beschreibung,GueltigAb,GueltigBis,Link")] Dokument dokument)
+        public ActionResult Create([Bind(Include = "ID,Titel,Beschreibung,GueltigAb,GueltigBis,Link")] Dokument dokument, HttpPostedFileBase upload)
         {
             if (ModelState.IsValid)
             {
+                if (upload != null && upload.ContentLength > 0)
+                {
+                    try
+                    {
+                        string jahr = DateTime.Now.Year.ToString();
+                        string monat = DateTime.Now.Month.ToString();
+                        string day = DateTime.Now.Day.ToString();
+                        string std = DateTime.Now.Hour.ToString();
+                        string min = DateTime.Now.Minute.ToString();
+                        string sek = DateTime.Now.Second.ToString();
+                        string time = jahr + monat + day + std + min + sek;
+                        string filename = time + "_" + System.IO.Path.GetFileName(upload.FileName);
+                        dokument.Dateiname = filename;
+                        upload.SaveAs(System.Configuration.ConfigurationManager.AppSettings["AblageDokument"] + filename);
+                    }
+                    catch
+                    {
+                        ViewBag.Message = "Dokument kann nicht gespeichert werden";
+                        return View(dokument);
+                    }
+                }
+
                 db.Dokuments.Add(dokument);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -57,6 +80,33 @@ namespace IKSnet.Controllers
 
             return View(dokument);
         }
+
+        public ActionResult Show(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Dokument dokument = db.Dokuments.Find(id);
+            if (dokument == null)
+            {
+                return HttpNotFound();
+            }
+            var path = System.Configuration.ConfigurationManager.AppSettings["AblageDokument"];
+            try
+            {
+                var fileStream = new FileStream(path + dokument.Dateiname,
+                                                 FileMode.Open,
+                                                 FileAccess.Read
+                                               );
+                return File(fileStream, MimeMapping.GetMimeMapping(path + dokument.Dateiname), dokument.Dateiname);
+            }
+            catch
+            {
+                return RedirectToAction("Index");
+            }
+        }
+
 
         // GET: Dokument/Edit/5
         public ActionResult Edit(int? id)

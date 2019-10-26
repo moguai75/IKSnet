@@ -1,45 +1,93 @@
 ﻿@model IKSnet.Models.Prozessaktivitaet
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detail Prozessaktivitaet";
 }
-<h2>Detail Prozessaktivität</h2>
-@Html.ActionLink("Zurück auf Prozessverwaltung", "Index", "Prozess") |
-@Html.ActionLink("Mutieren", "Edit", new { id = Model.ID })
-<hr />
-<div>
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Prozess.Titel)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Prozess.Titel)
-        </dd>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>Detail Prozessaktivitaet</h4>
+    </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Sortierung)
-        </dt>
+    <div class="panel-body">
+        @Html.ActionLink("Mutieren", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Zurück auf Prozessverwaltung", "Index", "Prozess")
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Sortierung)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Sortierung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Sortierung)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Titel)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Titel)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Titel)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Titel)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Beschreibung)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.Beschreibung)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Beschreibung)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.Beschreibung)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Prozess.ID)
+            </dt>
 
-    </dl>
+            <dd>
+                @Html.DisplayFor(model => model.Prozess.ID)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Prozess.Titel)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Prozess.Titel)
+            </dd>
+
+        </dl>
+    </div>
 </div>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>Zugeordnete Risiken</h4>
+        </div>
+
+        <div class="panel-body">
+            <p>
+                @Html.ActionLink("Neues Risiko erfassen", "Create", "Risiko")
+            </p>
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Titel</th>
+                        <th>Beschreibung</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model.Risikos.OrderBy(item => item.ID))
+                {
+                    <tr>
+                        <td>
+                            @item.ID
+                        </td>
+                        <td>
+                            @item.Titel
+                        </td>
+                        <td>
+                            @item.Risikobeschreibung
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
