@@ -45,7 +45,7 @@ namespace IKSnet.Controllers
         }
 
         // GET: Aufgabe/Create
-        public ActionResult Create()
+        public ActionResult Create(int? id)
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
 
@@ -54,8 +54,15 @@ namespace IKSnet.Controllers
                 ID = k.ID,
                 KoTitel = k.ID + " - " + k.Titel,
             }).ToList();
-
-            ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel");
+            //Selektieren der Kontrolle im Dopdown falls aus der Detailansicht Kontrolle gestartet
+            if (id == null)
+            {
+                ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel");
+            }
+            else
+            {
+                ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel", id);
+            }
             return View();
         }
 

@@ -37,15 +37,22 @@ namespace IKSnet.Controllers
         }
 
         // GET: Risiko/Create
-        public ActionResult Create()
+        public ActionResult Create(int? id)
         {
             var prozessakt = db.Prozessaktivitaets.Select(p => new
             {
                 ID = p.ID,
                 PATitel = p.Prozess.Titel + " - " + p.ID + " - " + p.Titel,
             }).ToList();
-
-            ViewBag.ProzessaktivitaetID = new SelectList(prozessakt, "ID", "PATitel");
+            //Selektieren der Prozessaktivität im Dopdown falls aus der Detailansicht Prozessaktivität gestartet
+            if (id == null)
+            {
+                ViewBag.ProzessaktivitaetID = new SelectList(prozessakt, "ID", "PATitel");
+            }
+            else
+            {
+                ViewBag.ProzessaktivitaetID = new SelectList(prozessakt, "ID", "PATitel", id);
+            }
             ViewBag.RisikokategorieID = new SelectList(db.Risikokategories, "ID", "Bezeichnung");
             return View();
         }

@@ -44,7 +44,7 @@ namespace IKSnet.Controllers
         }
 
         // GET: Kontrolle/Create
-        public ActionResult Create()
+        public ActionResult Create(int? id)
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
             ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Bezeichnung");
@@ -54,8 +54,15 @@ namespace IKSnet.Controllers
                 ID = r.ID,
                 RiTitel = r.ID + " - " + r.Titel,
             }).ToList();
-
-            ViewBag.RisikoID = new SelectList(risk, "ID", "RiTitel");
+            //Selektieren des Risikos im Dopdown falls aus der Detailansicht Risiko gestartet
+            if (id == null)
+            {
+                ViewBag.RisikoID = new SelectList(risk, "ID", "RiTitel");
+            }
+            else
+            {
+                ViewBag.RisikoID = new SelectList(risk, "ID", "RiTitel", id);
+            }
             return View();
         }
 
