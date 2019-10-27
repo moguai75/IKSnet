@@ -48,7 +48,14 @@ namespace IKSnet.Controllers
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
             ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Bezeichnung");
-            ViewBag.RisikoID = new SelectList(db.Risikos, "ID", "Titel");
+
+            var risk = db.Risikos.Select(r => new
+            {
+                ID = r.ID,
+                RiTitel = r.ID + " - " + r.Titel,
+            }).ToList();
+
+            ViewBag.RisikoID = new SelectList(risk, "ID", "RiTitel");
             return View();
         }
 
@@ -86,7 +93,14 @@ namespace IKSnet.Controllers
             }
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", kontrolle.ApplicationUserID);
             ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Bezeichnung", kontrolle.OrganisationseinheitID);
-            ViewBag.RisikoID = new SelectList(db.Risikos, "ID", "Titel", kontrolle.RisikoID);
+
+            var risk = db.Risikos.Select(r => new
+            {
+                ID = r.ID,
+                RiTitel = r.ID + " - " + r.Titel,
+            }).ToList();
+
+            ViewBag.RisikoID = new SelectList(risk, "ID", "RiTitel", kontrolle.RisikoID);
             return View(kontrolle);
         }
 

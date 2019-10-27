@@ -39,7 +39,13 @@ namespace IKSnet.Controllers
         // GET: Risiko/Create
         public ActionResult Create()
         {
-            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "ID");
+            var prozessakt = db.Prozessaktivitaets.Select(p => new
+            {
+                ID = p.ID,
+                PATitel = p.Prozess.Titel + " - " + p.ID + " - " + p.Titel,
+            }).ToList();
+
+            ViewBag.ProzessaktivitaetID = new SelectList(prozessakt, "ID", "PATitel");
             ViewBag.RisikokategorieID = new SelectList(db.Risikokategories, "ID", "Bezeichnung");
             return View();
         }
@@ -82,7 +88,14 @@ namespace IKSnet.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.ProzessaktivitaetID = new SelectList(db.Prozessaktivitaets, "ID", "ID", risiko.ProzessaktivitaetID);
+
+            var prozessakt = db.Prozessaktivitaets.Select(p => new
+            {
+                ID = p.ID,
+                PATitel = p.Prozess.Titel + " - " + p.ID + " - " + p.Titel,
+            }).ToList();
+
+            ViewBag.ProzessaktivitaetID = new SelectList(prozessakt, "ID", "PATitel", risiko.ProzessaktivitaetID);
             ViewBag.RisikokategorieID = new SelectList(db.Risikokategories, "ID", "Bezeichnung", risiko.RisikokategorieID);
             return View(risiko);
         }

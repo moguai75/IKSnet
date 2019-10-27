@@ -48,7 +48,14 @@ namespace IKSnet.Controllers
         public ActionResult Create()
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
-            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel");
+
+            var kont = db.Kontrolles.Select(k => new
+            {
+                ID = k.ID,
+                KoTitel = k.ID + " - " + k.Titel,
+            }).ToList();
+
+            ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel");
             return View();
         }
 
@@ -84,7 +91,14 @@ namespace IKSnet.Controllers
                 return HttpNotFound();
             }
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
-            ViewBag.KontrolleID = new SelectList(db.Kontrolles, "ID", "Titel", aufgabe.KontrolleID);
+
+            var kont = db.Kontrolles.Select(k => new
+            {
+                ID = k.ID,
+                KoTitel = k.ID + " - " + k.Titel,
+            }).ToList();
+
+            ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel", aufgabe.KontrolleID);
             return View(aufgabe);
         }
 
