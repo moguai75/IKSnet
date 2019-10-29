@@ -15,12 +15,6 @@ namespace IKSnet.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Prozess
-        //public ActionResult Index()
-        //{
-        //    var prozesss = db.Prozesss.Include(p => p.Prozesskategorie);
-        //    return View(prozesss.ToList());
-        //}
-
         public ActionResult Index(int? id)
         {
             var viewModel = new ProzessIndexData();

@@ -20,10 +20,12 @@ namespace IKSnet.Controllers
 
         public ActionResult Index()
         {
-            var viewModel = new HomeIndexData();
-            viewModel.Risikos = db.Risikos
-                .Include(i => i.Kontrolles.Select(c => c.Aufgabes)).ToList();
-            return View(viewModel);
+            var viewModelHome = new HomeIndexData();
+            viewModelHome.Risikokategories = db.Risikokategories;
+            viewModelHome.Risikos = db.Risikos;
+            viewModelHome.Kontrolles = db.Kontrolles;
+            viewModelHome.Aufgabes = db.Aufgabes;
+            return View(viewModelHome);
         }
 
 

@@ -52,51 +52,61 @@
                         <th></th>
                     </tr>
                 </thead>
-                    @foreach (var item in Model)
+                @foreach (var item in Model)
+                {
+                    string selectedRow = "";
+                    if (item.Status == IKSnet.Models.AufgabeStatus.Pendent && item.Faellig.AddDays(5) < DateTime.Now)
                     {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Titel)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Beschreibung)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ApplicationUser.BenutzerName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Faellig)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Status)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Kontrolle.Titel)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Kommentar)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Erledigt)
-                </td>
-                <td>
-                    <a href="@Url.Action("Show", "Aufgabe", new { id = item.ID })">@Html.DisplayFor(modelItem => item.Dokument)</a>
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Visum)
-                </td>
-                <td>
-                    @Html.ActionLink("Abschliessen", "CloseEdit", new { id = item.ID }) |
-                    @Html.ActionLink("Mutieren", "Edit", new { id = item.ID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                    @Html.ActionLink("Löschen", "Delete", new { id = item.ID })
-                </td>
-            </tr>
+                        selectedRow = "danger";
+                    }
+                    else if (item.Status == IKSnet.Models.AufgabeStatus.Pendent && item.Faellig.AddDays(1) < DateTime.Now)
+                    {
+                        selectedRow = "warning";
+                    }
+                    <tr class="@selectedRow">
+                    
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Titel)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Beschreibung)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ApplicationUser.BenutzerName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Faellig)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Kontrolle.Titel)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Kommentar)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Erledigt)
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Show", "Aufgabe", new { id = item.ID })">@Html.DisplayFor(modelItem => item.Dokument)</a>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Visum)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Abschliessen", "CloseEdit", new { id = item.ID }) |
+                            @Html.ActionLink("Mutieren", "Edit", new { id = item.ID }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                            @Html.ActionLink("Löschen", "Delete", new { id = item.ID })
+                        </td>
+                    </tr>
                     }
 
-            </table>
+                </table>
     </div>
 </div>

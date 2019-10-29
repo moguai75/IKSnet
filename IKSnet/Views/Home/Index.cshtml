@@ -16,14 +16,14 @@
             </div>
             <div class="panel-body">
                 <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    @foreach (var item in Model.Risikos)
+                    @foreach (var item in Model.Risikokategories)
                     {
                         <tr>
                             <td class="col-sm-1 col-lg-5 col-md-5">
-                                <strong>@item.ID </strong>
+                                <strong>@item.Bezeichnung </strong>
                             </td>
                             <td class="col-sm-1 col-lg-1 col-md-1">
-                                @Html.ActionLink("Mutieren", "Edit")
+                                @item.Risikos.Count
                             </td>
                         </tr>
                     }
@@ -32,207 +32,60 @@
         </div> <!-- End Panel -->
         <!--/div-->
     </div>
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
-</div>
 
-<!--Row 2-->
+    @if (Model.Risikos != null)
+    {
+        <div class="col-md-4">
+            <!--div class="col-sm-4 col-lg-4 col-md-4"-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h5>Übersicht Rollen</h5>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-hover">
+                        @foreach (var item in Model.Risikos)
+                        {
+                            <tr>
+                                <td class="col-sm-1 col-lg-5 col-md-5">
+                                    <strong>@item.Titel</strong>
+                                </td>
+                                <td class="col-sm-1 col-lg-1 col-md-1">
+                                    @item.Kontrolles.Count
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </div> <!-- End Panel Body-->
+            </div> <!-- End Panel -->
+            <!--/div-->
+        </div>
+    }
 
-<div class="row">
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
-</div>
-
-
-<!--Row 3-->
-
-<div class="row">
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
-    <div class="col-md-4">
-        <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
-            </div>
-            <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
-                    <!--foreach (var role in ViewBag.Roles)
-                            {
-                                <tr>
-                                    <td class="col-sm-1 col-lg-5 col-md-5">
-                                        <strong>role.Text </strong>
-                                    </td>
-                                    <td class="col-sm-1 col-lg-1 col-md-1">
-                                        Html.ActionLink("Mutieren", "Edit", new { roleName = role.Text })
-                                    </td>
-                                </tr>
-                            }-->
-                </table>
-            </div> <!-- End Panel Body-->
-        </div> <!-- End Panel -->
-        <!--/div-->
-    </div>
+    @if (Model.Kontrolles != null)
+    {
+        <div class="col-md-4">
+            <!--div class="col-sm-4 col-lg-4 col-md-4"-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h5>Übersicht Rollen</h5>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-hover">
+                        @foreach (var item in Model.Kontrolles)
+                        {
+                            <tr>
+                                <td class="col-sm-1 col-lg-5 col-md-5">
+                                    <strong>@item.Titel</strong>
+                                </td>
+                                <td class="col-sm-1 col-lg-1 col-md-1">
+                                    @item.Aufgabes.Count
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </div> <!-- End Panel Body-->
+            </div> <!-- End Panel -->
+            <!--/div-->
+        </div>
+    }
 </div>
