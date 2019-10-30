@@ -88,14 +88,13 @@ namespace IKSnet.Controllers
                 ModelState.AddModelError("", "Benutzer hat Status erfasst.");
                 return View(model);
             }
-            // Wenn Status aktiviert oder Benutzer noch nich vorhanden, Login verarbeiten
+            // Wenn Status aktiviert oder Benutzer noch nicht vorhanden, Login verarbeiten
             else
             {
                 // Anmeldefehler werden bezüglich einer Kontosperre nicht gezählt.
                 // Wenn Sie aktivieren möchten, dass Kennwortfehler eine Sperre auslösen, ändern Sie in "shouldLockout: true".
                 var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: true);
                 {
-
                     switch (result)
                     {
                         case SignInStatus.Success:

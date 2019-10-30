@@ -17,10 +17,12 @@ namespace IKSnet.Controllers
         // GET: Prozess
         public ActionResult Index(int? id)
         {
+            //Viewmodel erstellen
             var viewModel = new ProzessIndexData();
             viewModel.Prozesss = db.Prozesss
                 .Include(i => i.Prozessaktivitaets)
-                .Include(i => i.Prozesskategorie);          
+                .Include(i => i.Prozesskategorie);
+            //Anhand id die Prozessaktivitäten selektieren
             if (id != null)
             {
                 ViewBag.ProzessID = id.Value;

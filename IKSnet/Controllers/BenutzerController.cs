@@ -125,9 +125,9 @@ namespace IKSnet.Controllers
         {
             if (ModelState.IsValid)
             {
-                //set UserName same Email
+                //UserName gemäss E-Mail Adresse setzen falls E-Mail Adresse angepasst wurde
                 applicationUser.UserName = applicationUser.Email;
-                //build Benutzername with Name and Vorname
+                //Benutzername gemäss Name und Vorname setzen falls Name, Vorname angepasst wurden
                 applicationUser.BenutzerName = (applicationUser.Name + " " + applicationUser.Vorname);
                 db.Entry(applicationUser).State = EntityState.Modified;
                 db.SaveChanges();
