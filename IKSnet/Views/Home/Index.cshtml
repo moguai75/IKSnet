@@ -8,19 +8,29 @@
 </div>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
         <!--div class="col-sm-4 col-lg-4 col-md-4"-->
         <div class="panel panel-primary">
             <div class="panel-heading">
-                <h5>Übersicht Rollen</h5>
+                <h5>Risiken je Risikokategorie</h5>
             </div>
             <div class="panel-body">
-                <table class="table table-hover col-sm-4 col-lg-4 col-md-4 ">
+                <table class="table table-hover col-sm-3 col-lg-3 col-md-3">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>
+                                Bezeichnung
+                            </th>
+                            <th>
+                                Anzahl
+                            </th>
+                        </tr>
+                    </thead>
                     @foreach (var item in Model.Risikokategories)
                     {
                         <tr>
-                            <td class="col-sm-1 col-lg-5 col-md-5">
-                                <strong>@item.Bezeichnung </strong>
+                            <td class="col-sm-5 col-lg-5 col-md-5">
+                                @item.Bezeichnung
                             </td>
                             <td class="col-sm-1 col-lg-1 col-md-1">
                                 @item.Risikos.Count
@@ -33,24 +43,108 @@
         <!--/div-->
     </div>
 
+
     @if (Model.Risikos != null)
     {
         <div class="col-md-4">
             <!--div class="col-sm-4 col-lg-4 col-md-4"-->
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h5>Übersicht Rollen</h5>
+                    <h5>Risiken je Risikobewertung</h5>
                 </div>
                 <div class="panel-body">
-                    <table class="table table-hover">
-                        @foreach (var item in Model.Risikos)
-                        {
+                    <table class="table table-hover col-sm-4 col-lg-4 col-md-4">
+                        <thead class="thead-light">
                             <tr>
-                                <td class="col-sm-1 col-lg-5 col-md-5">
-                                    <strong>@item.Titel</strong>
+                                <th>
+                                    Risikobewertung
+                                </th>
+                                <th>
+                                    Anzahl Risiken
+                                </th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td class="col-sm-1 col-lg-4 col-md-4">
+                                Risikopunkte kleiner 6
+                            </td>
+                            <td class="col-sm-1 col-lg-2 col-md-2">
+                                @ViewBag.Risk6
+                            </td>
+                        </tr>
+                        <tr class="warning">
+                            <td class="col-sm-1 col-lg-4 col-md-4">
+                                Risikopunkte zwischen 5 und 9
+                            </td>
+                            <td class="col-sm-1 col-lg-2 col-md-2">
+                                @ViewBag.Risk6bis8
+                            </td>
+                        </tr>
+                        <tr class="danger">
+                            <td class="col-sm-1 col-lg-4 col-md-4">
+                                Risikopunkte grösser 8
+                            </td>
+                            <td class="col-sm-1 col-lg-2 col-md-2">
+                                @ViewBag.Risk9bis10
+                            </td>
+                        </tr>
+                    </table>
+                </div> <!-- End Panel Body-->
+            </div> <!-- End Panel -->
+            <!--/div-->
+        </div>
+    }
+
+    @if (Model.Aufgabes != null)
+    {
+        <div class="col-md-5">
+            <!--div class="col-sm-4 col-lg-4 col-md-4"-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h5>Pendente Aufgaben</h5>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-hover col-sm-5 col-lg-5 col-md-5">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>
+                                    ID
+                                </th>
+                                <th>
+                                    Titel
+                                </th>
+                                <th>
+                                    Fällig am
+                                </th>
+                                <th>
+                                    Verantwortlich
+                                </th>
+                            </tr>
+                        </thead>
+
+                        @foreach (var item in Model.Aufgabes.Where(item => item.Status == IKSnet.Models.AufgabeStatus.Pendent))
+                        {
+                            string selectedRow = "";
+                            if (item.Status == IKSnet.Models.AufgabeStatus.Pendent && item.Faellig.AddDays(5) < DateTime.Now)
+                            {
+                                selectedRow = "danger";
+                            }
+                            else if (item.Status == IKSnet.Models.AufgabeStatus.Pendent && item.Faellig.AddDays(1) < DateTime.Now)
+                            {
+                                selectedRow = "warning";
+                            }
+                            <tr class="@selectedRow">
+                                <td class="col-sm-1 col-lg-3 col-md-3">
+                                    @item.ID
                                 </td>
-                                <td class="col-sm-1 col-lg-1 col-md-1">
-                                    @item.Kontrolles.Count
+                                <td class="col-sm-1 col-lg-3 col-md-3">
+                                    @item.Titel
+                                </td>
+                                <td class="col-sm-1 col-lg-3 col-md-3">
+                                    @item.Faellig.ToString("dd MM yyyy")
+                                </td>
+                                <td class="col-sm-1 col-lg-3 col-md-3">
+                                    @item.ApplicationUser.BenutzerName
                                 </td>
                             </tr>
                         }
@@ -61,31 +155,5 @@
         </div>
     }
 
-    @if (Model.Kontrolles != null)
-    {
-        <div class="col-md-4">
-            <!--div class="col-sm-4 col-lg-4 col-md-4"-->
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h5>Übersicht Rollen</h5>
-                </div>
-                <div class="panel-body">
-                    <table class="table table-hover">
-                        @foreach (var item in Model.Kontrolles)
-                        {
-                            <tr>
-                                <td class="col-sm-1 col-lg-5 col-md-5">
-                                    <strong>@item.Titel</strong>
-                                </td>
-                                <td class="col-sm-1 col-lg-1 col-md-1">
-                                    @item.Aufgabes.Count
-                                </td>
-                            </tr>
-                        }
-                    </table>
-                </div> <!-- End Panel Body-->
-            </div> <!-- End Panel -->
-            <!--/div-->
-        </div>
-    }
+
 </div>

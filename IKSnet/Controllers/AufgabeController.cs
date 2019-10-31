@@ -118,6 +118,20 @@ namespace IKSnet.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Status Abgeschlossen soll nicht über Mutieren gesetzt werden können
+                if (aufgabe.Status == AufgabeStatus.Abgeschlossen)
+                {
+                    ViewBag.Message = "Bitte schliessen Sie die Aufgabe über den Link Abschliessen ab.";
+                    var kont = db.Kontrolles.Select(k => new
+                    {
+                        ID = k.ID,
+                        KoTitel = k.ID + " - " + k.Titel,
+                    }).ToList();
+
+                    ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel", aufgabe.KontrolleID);
+                    ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+                    return View(aufgabe);
+                }
                 db.Entry(aufgabe).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -154,9 +168,21 @@ namespace IKSnet.Controllers
         {
             if (ModelState.IsValid)
             {
-                //Prüfen, ob ein Dokument hinzugefügt werden soll
-                if (upload != null && upload.ContentLength > 0)
+                if (aufgabe.Kommentar == null || aufgabe.Visum == null)
                 {
+                    ViewBag.Message = "Bitte erfassen Sie einen Kommentar und ein Visum.";
+                    var kont = db.Kontrolles.Select(k => new
+                    {
+                        ID = k.ID,
+                        KoTitel = k.ID + " - " + k.Titel,
+                    }).ToList();
+                    ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel", aufgabe.KontrolleID);
+                    ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+                    return View(aufgabe);
+                }
+                    //Prüfen, ob ein Dokument hinzugefügt werden soll
+                    if (upload != null && upload.ContentLength > 0)
+                    {
                     //Speicherung des Dokuments
                     try
                     {
@@ -202,6 +228,7 @@ namespace IKSnet.Controllers
             {
                 return HttpNotFound();
             }
+            //Pfad aus web.config holen
             var path = System.Configuration.ConfigurationManager.AppSettings["AblageAufgabe"];
             try
             {

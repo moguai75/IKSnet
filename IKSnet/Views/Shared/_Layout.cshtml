@@ -107,10 +107,7 @@ desired effect
                         </a>
                         <ul class="treeview-menu">
                             <li><a href="@Url.Action("Index", "Aufgabe")"><i class="fa fa-folder-o"></i><span>Aktive Aufgaben</span></a></li>
-                            @if (User.IsInRole("Administrator") || User.IsInRole("IKS-Manager"))
-                            {
-                                <li><a href="@Url.Action("ErledigtIndex", "Aufgabe")"><i class="fa fa-folder-o"></i><span>Erledigte Aufgaben</span></a></li>
-                            }
+                            <li><a href="@Url.Action("ErledigtIndex", "Aufgabe")"><i class="fa fa-folder-o"></i><span>Erledigte Aufgaben</span></a></li>
                         </ul>
                     </li>
                     <li><a href="@Url.Action("Index", "Dokument")"><i class="fa fa-book"></i><span>Dokument</span></a></li>

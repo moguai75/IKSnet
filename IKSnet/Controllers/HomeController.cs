@@ -25,6 +25,13 @@ namespace IKSnet.Controllers
             viewModelHome.Risikos = db.Risikos;
             viewModelHome.Kontrolles = db.Kontrolles;
             viewModelHome.Aufgabes = db.Aufgabes;
+            var riskcount6 = viewModelHome.Risikos.Where(r => r.Bewertung < 6).Count();
+            ViewBag.Risk6 = riskcount6;
+            var riskcount6bis8 = viewModelHome.Risikos.Where(r => r.Bewertung > 5 && r.Bewertung <9).Count();
+            ViewBag.Risk6bis8 = riskcount6bis8;
+            var riskcount9bis10 = viewModelHome.Risikos.Where(r => r.Bewertung > 8).Count();
+            ViewBag.Risk9bis10 = riskcount9bis10;
+
             return View(viewModelHome);
         }
 

@@ -100,10 +100,13 @@
                         </td>
                         <td>
                             @Html.ActionLink("Abschliessen", "CloseEdit", new { id = item.ID }) |
-                            @Html.ActionLink("Mutieren", "Edit", new { id = item.ID }) |
+                            @Html.ActionLink("Mutieren", "Edit", new { id = item.ID })  |
                             @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-                            @Html.ActionLink("Löschen", "Delete", new { id = item.ID })
-                        </td>
+                            @if (User.IsInRole("Administrator") || User.IsInRole("IKS-Manager"))
+                            {
+                                @Html.ActionLink("Löschen", "Delete", new { id = item.ID })
+                            }
+                            </td>
                     </tr>
                     }
 
