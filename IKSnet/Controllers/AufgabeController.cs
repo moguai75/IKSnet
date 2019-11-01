@@ -48,7 +48,7 @@ namespace IKSnet.Controllers
         public ActionResult Create(int? id)
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
-
+            //Selectlist mit ID und Titel für View
             var kont = db.Kontrolles.Select(k => new
             {
                 ID = k.ID,
@@ -267,6 +267,12 @@ namespace IKSnet.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Aufgabe aufgabe = db.Aufgabes.Find(id);
+            //Falls Aufgabe Status Abgeschlossen, Löschung nicht zulassen
+            if (aufgabe.Status == AufgabeStatus.Abgeschlossen)
+            {
+                ViewBag.Message = "Aufgaben mit Status Abgeschlossen können nicht gelöscht werden.";
+                return View(aufgabe);
+            }
             db.Aufgabes.Remove(aufgabe);
             db.SaveChanges();
             return RedirectToAction("Index");

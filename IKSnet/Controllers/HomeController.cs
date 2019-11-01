@@ -13,18 +13,16 @@ namespace IKSnet.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
-
+        //Daten aufbereiten für Dashboard Home
         public ActionResult Index()
         {
+            //ViewModel erstellen
             var viewModelHome = new HomeIndexData();
             viewModelHome.Risikokategories = db.Risikokategories;
             viewModelHome.Risikos = db.Risikos;
             viewModelHome.Kontrolles = db.Kontrolles;
             viewModelHome.Aufgabes = db.Aufgabes;
+            //ViewBags für Risikobewertung
             var riskcount6 = viewModelHome.Risikos.Where(r => r.Bewertung < 6).Count();
             ViewBag.Risk6 = riskcount6;
             var riskcount6bis8 = viewModelHome.Risikos.Where(r => r.Bewertung > 5 && r.Bewertung <9).Count();

@@ -48,7 +48,7 @@ namespace IKSnet.Controllers
         {
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName");
             ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Bezeichnung");
-
+            //Selectlist mit ID und Titel für View
             var risk = db.Risikos.Select(r => new
             {
                 ID = r.ID,

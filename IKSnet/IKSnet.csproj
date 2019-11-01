@@ -994,6 +994,7 @@
     <Content Include="Views\Kontrolle\ErledigtIndex.cshtml" />
     <Content Include="Views\Aufgabe\ErledigtIndex.cshtml" />
     <Content Include="Views\Aufgabe\CloseEdit.cshtml" />
+    <Content Include="Views\Dokument\ErledigtIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

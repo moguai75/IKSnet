@@ -40,7 +40,7 @@
                 <div class="form-group">
                     @Html.LabelFor(model => model.GueltigAb, htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
-                        @Html.EditorFor(model => model.GueltigAb, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.GueltigAb, new { htmlAttributes = new { @class = "form-control pull-right", id = "datepickerStart", placeholder = "TT.MM.JJJJ" } })
                         @Html.ValidationMessageFor(model => model.GueltigAb, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                 <div class="form-group">
                     @Html.LabelFor(model => model.GueltigBis, htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
-                        @Html.EditorFor(model => model.GueltigBis, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.GueltigBis, new { htmlAttributes = new { @class = "form-control pull-right", id = "datepickerEnde", placeholder = "TT.MM.JJJJ" } })
                         @Html.ValidationMessageFor(model => model.GueltigBis, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -70,3 +70,21 @@
         }
     </div>
 </div>
+
+@section Scripts {
+    <script src="~/content/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/content/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js"></script>
+    <script>
+        $(function () {
+            //Date picker
+            $('#datepickerStart').datepicker({
+                language: 'de',
+                autoclose: true
+            })
+            $('#datepickerEnde').datepicker({
+                language: 'de',
+                autoclose: true
+            })
+        })
+    </script>
+}

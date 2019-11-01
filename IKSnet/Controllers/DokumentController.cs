@@ -15,11 +15,23 @@ namespace IKSnet.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: Dokument
+        // GET: gültige Dokumente 
         public ActionResult Index()
         {
-            return View(db.Dokuments.ToList());
+            var doks = db.Dokuments.Where(a => a.GueltigBis == null || a.GueltigBis > DateTime.Now);
+
+            return View(doks.ToList());
         }
+
+        // GET: archivierte Dokumente 
+        public ActionResult ErledigtIndex()
+        {
+            var doks = db.Dokuments.Where(a => a.GueltigBis < DateTime.Now);
+
+            return View(doks.ToList());
+        }
+
+
 
         // GET: Dokument/Details/5
         public ActionResult Details(int? id)

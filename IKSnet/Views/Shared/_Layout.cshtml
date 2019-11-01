@@ -110,7 +110,18 @@ desired effect
                             <li><a href="@Url.Action("ErledigtIndex", "Aufgabe")"><i class="fa fa-folder-o"></i><span>Erledigte Aufgaben</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="@Url.Action("Index", "Dokument")"><i class="fa fa-book"></i><span>Dokument</span></a></li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-book"></i> <span>Dokument</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Index", "Dokument")"><i class="fa fa-folder-o"></i><span>Gültige Dokumente</span></a></li>
+                            <li><a href="@Url.Action("ErledigtIndex", "Dokument")"><i class="fa fa-folder-o"></i><span>Archivierte Dokumente</span></a></li>
+                        </ul>
+                    </li>
                     @if (User.IsInRole("Administrator"))
                     {
                         <li class="treeview">
@@ -161,7 +172,7 @@ desired effect
                 </div>
             </div>
             <!-- Default to the left -->
-            <strong>Copyright &copy; 2019 <a href="https://www.ahvpkmetzger.ch">AHV-Kasse Metzger</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2019 <a href="https://www.ahvpkmetzger.ch">AHV-Kasse</a>.</strong> All rights reserved.
         </footer>
     </div>
     <!-- ./wrapper -->

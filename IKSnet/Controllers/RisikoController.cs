@@ -39,6 +39,7 @@ namespace IKSnet.Controllers
         // GET: Risiko/Create
         public ActionResult Create(int? id)
         {
+            //Selectlist mit ID und Titel für View
             var prozessakt = db.Prozessaktivitaets.Select(p => new
             {
                 ID = p.ID,
@@ -95,7 +96,7 @@ namespace IKSnet.Controllers
             {
                 return HttpNotFound();
             }
-
+            //Selectlist mit ID und Titel für View
             var prozessakt = db.Prozessaktivitaets.Select(p => new
             {
                 ID = p.ID,
