@@ -78,6 +78,7 @@ namespace IKSnet.Controllers
                         dokument.Dateiname = filename;
                         upload.SaveAs(System.Configuration.ConfigurationManager.AppSettings["AblageDokument"] + filename);
                     }
+                    //Falls Dokument nicht gespeichert werden kann, Fehlermeldung anzeigen
                     catch
                     {
                         ViewBag.Message = "Dokument kann nicht gespeichert werden";

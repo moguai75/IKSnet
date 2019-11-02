@@ -200,7 +200,15 @@ namespace IKSnet.Controllers
                     //Falls Speicherung nicht erfolgreich, Fehlermeldung ausgeben
                     catch
                     {
-                        return new HttpStatusCodeResult(HttpStatusCode.NotFound, "Dokument konnte nicht gespeichert werden");
+                        ViewBag.Message = "Dokument kann nicht gespeichert werden";
+                        var kont = db.Kontrolles.Select(k => new
+                        {
+                            ID = k.ID,
+                            KoTitel = k.ID + " - " + k.Titel,
+                        }).ToList();
+                        ViewBag.KontrolleID = new SelectList(kont, "ID", "KoTitel", aufgabe.KontrolleID);
+                        ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", aufgabe.ApplicationUserID);
+                        return View(aufgabe);
                     }
 
                 }
