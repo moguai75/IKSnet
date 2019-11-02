@@ -81,7 +81,7 @@ namespace IKSnet.Controllers
                     //Falls Dokument nicht gespeichert werden kann, Fehlermeldung anzeigen
                     catch
                     {
-                        ViewBag.Message = "Dokument kann nicht gespeichert werden";
+                        TempData["message"] = "Dokument kann nicht gespeichert werden";
                         return View(dokument);
                     }
                 }
@@ -116,6 +116,7 @@ namespace IKSnet.Controllers
             }
             catch
             {
+                TempData["message"] = "Datei nicht vorhanden";
                 return RedirectToAction("Index");
             }
         }

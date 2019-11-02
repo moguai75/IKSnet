@@ -112,7 +112,7 @@ namespace IKSnet.Controllers
             Prozesskategorie prozesskategorie = db.Prozesskategories.Find(id);
             if (prozesskategorie.Prozesss.Count != 0)
             {
-                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                TempData["message"] = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
                 return View(prozesskategorie);
             }
             db.Prozesskategories.Remove(prozesskategorie);

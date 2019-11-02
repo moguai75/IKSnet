@@ -24,7 +24,7 @@ namespace IKSnet.Controllers
             new SelectListItem { Value = uu.UserName.ToString(), Text = uu.UserName }).ToList();
             ViewBag.Users = userlist;
 
-            ViewBag.Message = "";
+            TempData["message"] = "";
 
             return View();
         }
@@ -80,7 +80,7 @@ namespace IKSnet.Controllers
             userManager.AddToRole(user.Id, RoleName);
 
 
-            ViewBag.Message = "Rolle erfolgreich zugeordnet!";
+            TempData["message"] = "Rolle erfolgreich zugeordnet!";
 
             // Repopulate Dropdown Lists
             var rolelist = context.Roles.OrderBy(r => r.Name).ToList().Select(rr => new SelectListItem { Value = rr.Name.ToString(), Text = rr.Name }).ToList();
@@ -114,7 +114,7 @@ namespace IKSnet.Controllers
                 var userlist = context.Users.OrderBy(u => u.UserName).ToList().Select(uu =>
                 new SelectListItem { Value = uu.UserName.ToString(), Text = uu.UserName }).ToList();
                 ViewBag.Users = userlist;
-                ViewBag.Message = "Rollen erfolgeich eingelesen!";
+                TempData["message"] = "Rollen erfolgeich eingelesen!";
             }
             else
             {
@@ -129,8 +129,8 @@ namespace IKSnet.Controllers
                 new SelectListItem { Value = uu.UserName.ToString(), Text = uu.UserName }).ToList();
                 ViewBag.Users = userlist;
 
-                ViewBag.Message = "";
-                ViewBag.Message = "Bitte Benutzer auswählen!";
+                TempData["message"] = "";
+                TempData["message"] = "Bitte Benutzer auswählen!";
             }
 
             return View("Index");
@@ -152,11 +152,11 @@ namespace IKSnet.Controllers
             if (userManager.IsInRole(user.Id, RoleName))
             {
                 userManager.RemoveFromRole(user.Id, RoleName);
-                ViewBag.Message = "Rolle erfolgeich vom Benutzer entfernt!";
+                TempData["message"] = "Rolle erfolgeich vom Benutzer entfernt!";
             }
             else
             {
-                ViewBag.Message = "Der Benutzer ist nicht in der Rolle vorhanden.";
+                TempData["message"] = "Der Benutzer ist nicht in der Rolle vorhanden.";
             }
 
             // Repopulate Dropdown Lists

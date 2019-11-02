@@ -110,6 +110,12 @@ namespace IKSnet.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Organisationseinheit organisationseinheit = db.Organisationseinheits.Find(id);
+            //Check auf zugeordnete Kontrollen
+            if (organisationseinheit.Kontrolles.Count != 0)
+            {
+                TempData["message"] = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                return View(organisationseinheit);
+            }
             db.Organisationseinheits.Remove(organisationseinheit);
             db.SaveChanges();
             return RedirectToAction("Index");

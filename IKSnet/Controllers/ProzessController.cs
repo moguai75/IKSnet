@@ -130,7 +130,7 @@ namespace IKSnet.Controllers
             Prozess prozess = db.Prozesss.Find(id);
             if (prozess.Prozessaktivitaets.Count != 0)
             {
-                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                TempData["message"] = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
                 return View(prozess);
             }
             db.Prozesss.Remove(prozess);

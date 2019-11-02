@@ -100,13 +100,12 @@ namespace IKSnet.Controllers
             }
             ViewBag.ApplicationUserID = new SelectList(db.Users, "Id", "BenutzerName", kontrolle.ApplicationUserID);
             ViewBag.OrganisationseinheitID = new SelectList(db.Organisationseinheits, "ID", "Bezeichnung", kontrolle.OrganisationseinheitID);
-
+            //Selectlist mit ID und Titel für View
             var risk = db.Risikos.Select(r => new
             {
                 ID = r.ID,
                 RiTitel = r.ID + " - " + r.Titel,
             }).ToList();
-
             ViewBag.RisikoID = new SelectList(risk, "ID", "RiTitel", kontrolle.RisikoID);
             return View(kontrolle);
         }
@@ -153,7 +152,7 @@ namespace IKSnet.Controllers
             Kontrolle kontrolle = db.Kontrolles.Find(id);
             if (kontrolle.Aufgabes.Count != 0)
             {
-                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                TempData["message"] = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
                 return View(kontrolle);
             }
             db.Kontrolles.Remove(kontrolle);

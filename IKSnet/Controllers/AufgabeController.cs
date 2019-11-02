@@ -121,7 +121,7 @@ namespace IKSnet.Controllers
                 //Status Abgeschlossen soll nicht über Mutieren gesetzt werden können
                 if (aufgabe.Status == AufgabeStatus.Abgeschlossen)
                 {
-                    ViewBag.Message = "Bitte schliessen Sie die Aufgabe über den Link Abschliessen ab.";
+                    TempData["message"] = "Bitte schliessen Sie die Aufgabe über den Link Abschliessen ab.";
                     var kont = db.Kontrolles.Select(k => new
                     {
                         ID = k.ID,
@@ -168,9 +168,10 @@ namespace IKSnet.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Prüfen ob Kommentar und Visum abgefüllt sind
                 if (aufgabe.Kommentar == null || aufgabe.Visum == null)
                 {
-                    ViewBag.Message = "Bitte erfassen Sie einen Kommentar und ein Visum.";
+                    TempData["message"] = "Bitte erfassen Sie einen Kommentar und ein Visum.";
                     var kont = db.Kontrolles.Select(k => new
                     {
                         ID = k.ID,
@@ -200,7 +201,7 @@ namespace IKSnet.Controllers
                     //Falls Speicherung nicht erfolgreich, Fehlermeldung ausgeben
                     catch
                     {
-                        ViewBag.Message = "Dokument kann nicht gespeichert werden";
+                        TempData["message"] = "Dokument kann nicht gespeichert werden";
                         var kont = db.Kontrolles.Select(k => new
                         {
                             ID = k.ID,
@@ -248,7 +249,8 @@ namespace IKSnet.Controllers
             }
             catch
             {
-                return RedirectToAction("Index");
+                TempData["message"] = "Datei nicht vorhanden";
+                return RedirectToAction("ErledigtIndex");
             }
         }
 
@@ -278,7 +280,7 @@ namespace IKSnet.Controllers
             //Falls Aufgabe Status Abgeschlossen, Löschung nicht zulassen
             if (aufgabe.Status == AufgabeStatus.Abgeschlossen)
             {
-                ViewBag.Message = "Aufgaben mit Status Abgeschlossen können nicht gelöscht werden.";
+                TempData["message"] = "Aufgaben mit Status Abgeschlossen können nicht gelöscht werden";
                 return View(aufgabe);
             }
             db.Aufgabes.Remove(aufgabe);

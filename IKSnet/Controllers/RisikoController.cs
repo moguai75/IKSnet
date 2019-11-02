@@ -156,7 +156,7 @@ namespace IKSnet.Controllers
             Risiko risiko = db.Risikos.Find(id);
             if (risiko.Kontrolles.Count != 0)
             {
-                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                TempData["message"] = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
                 return View(risiko);
             }
             db.Risikos.Remove(risiko);

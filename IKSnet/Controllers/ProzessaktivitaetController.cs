@@ -81,7 +81,13 @@ namespace IKSnet.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.ProzessID = new SelectList(db.Prozesss, "ID", "Titel", prozessaktivitaet.ProzessID);
+            //Selectlist mit ID und Titel für View
+            var proz = db.Prozesss.Select(r => new
+            {
+                ID = r.ID,
+                PrTitel = r.ID + " - " + r.Titel,
+            }).ToList();
+            ViewBag.ProzessID = new SelectList(proz, "ID", "PrTitel", prozessaktivitaet.ProzessID);
             return View(prozessaktivitaet);
         }
 
@@ -125,7 +131,7 @@ namespace IKSnet.Controllers
             Prozessaktivitaet prozessaktivitaet = db.Prozessaktivitaets.Find(id);
             if (prozessaktivitaet.Risikos.Count != 0)
             {
-                ViewBag.Message = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
+                TempData["message"] = "Löschung nicht möglich, es bestehen noch Abhängigkeiten";
                 return View(prozessaktivitaet);
             }
             db.Prozessaktivitaets.Remove(prozessaktivitaet);
